@@ -10,8 +10,8 @@ permalink: pretty
 future: true
 
 header_pages:
-  - timeline.md
-  - leaderboard.md
-  - track1.md
-  - track2.md
-  - faqs.md
+  - pages/timeline.md
+  - pages/leaderboard.md
+  - pages/track1.md
+  - pages/track2.md
+  - pages/faqs.md
