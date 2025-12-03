@@ -1,24 +1,17 @@
 title: "Speech Accessibility Project Challenge 2"
 description: "Welcome to the Speech Accessibility Project Challenge 2. This challenge seeks to rapidly advance the state of the art in dysarthric speech recognition."
-theme: jekyll-theme-minimal
+theme: jekyll-theme-primer
 
 url: "https://xiuwenz2.github.io"
 baseurl: "/SAPC2-website"
 
 markdown: kramdown
 permalink: pretty
-
-# Optional: show future-dated posts/pages if you add them later
 future: true
 
-navigation:
-  - title: "Timeline"
-    url: /timeline/
-  - title: "Leaderboard"
-    url: /leaderboard/
-  - title: "Track 1"
-    url: /track1/
-  - title: "Track 2"
-    url: /track2/
-  - title: "FAQs"
-    url: /faqs/
+header_pages:
+  - timeline.md
+  - leaderboard.md
+  - track1.md
+  - track2.md
+  - faqs.md
