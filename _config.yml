@@ -9,6 +9,7 @@ baseurl: "/SAPC2-website"
 
 markdown: kramdown
 permalink: pretty
+theme: jekyll-theme-minimal
 
 # Optional: show future-dated posts/pages if you add them later
 future: true
