@@ -4,7 +4,7 @@ description: "Welcome to the Speech Accessibility Project Challenge 2. This chal
 # set baseurl: "/REPO" and url: "https://USERNAME.github.io"
 # For a User site: https://USERNAME.github.io/
 # set baseurl: "" and url: "https://USERNAME.github.io"
-url: "https://xiuwenz2.github.io/SAPC2-website/"
+url: "https://xiuwenz2.github.io"
 baseurl: "/SAPC2-website"
 
 markdown: kramdown
