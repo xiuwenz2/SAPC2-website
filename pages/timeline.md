@@ -1,6 +1,3 @@
-
-### `pages/timeline.md`
-```md
 ---
 layout: default
 title: "Timeline"
