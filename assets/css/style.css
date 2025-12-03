@@ -1,0 +1,56 @@
+/* Basic body/reset */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+}
+
+.wrapper {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+/* Title + nav on one line */
+.site-title-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.75rem;
+}
+
+/* Site title */
+.site-title {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #0366d6;
+  text-decoration: none;
+}
+
+/* Nav links */
+.site-nav a {
+  margin-left: 1rem;
+  color: #24292e;        /* dark gray, not blue */
+  text-decoration: none; /* no underline by default */
+  font-weight: 400;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
+.page-content {
+  margin-top: 1.5rem;
+}
+
+/* Footer */
+.site-footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #ddd;
+  font-size: 0.85rem;
+  color: #6a737d;
+}

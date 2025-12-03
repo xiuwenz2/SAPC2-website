@@ -15,4 +15,4 @@ permalink: /timeline/
 | Winners announced | YYYY-MM-DD |
 | Paper deadline (optional) | YYYY-MM-DD |
 
-**Note:** You can keep the leaderboard open after the official deadline, but only count submissions before the deadline for final rankings (ARC does this). :contentReference[oaicite:9]{index=9}
+**Note:** You can keep the leaderboard open after the official deadline, but only count submissions before the deadline for final rankings (ARC does this).
