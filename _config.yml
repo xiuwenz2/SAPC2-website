@@ -10,3 +10,15 @@ permalink: pretty
 
 # Optional: show future-dated posts/pages if you add them later
 future: true
+
+navigation:
+  - title: "Timeline"
+    url: /timeline/
+  - title: "Leaderboard"
+    url: /leaderboard/
+  - title: "Track 1"
+    url: /track1/
+  - title: "Track 2"
+    url: /track2/
+  - title: "FAQs"
+    url: /faqs/
