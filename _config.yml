@@ -1,15 +1,12 @@
 title: "Speech Accessibility Project Challenge 2"
 description: "Welcome to the Speech Accessibility Project Challenge 2. This challenge seeks to rapidly advance the state of the art in dysarthric speech recognition."
-# For a GitHub Project site: https://USERNAME.github.io/REPO/
-# set baseurl: "/REPO" and url: "https://USERNAME.github.io"
-# For a User site: https://USERNAME.github.io/
-# set baseurl: "" and url: "https://USERNAME.github.io"
+theme: jekyll-theme-minimal
+
 url: "https://xiuwenz2.github.io"
 baseurl: "/SAPC2-website"
 
 markdown: kramdown
 permalink: pretty
-theme: jekyll-theme-minimal
 
 # Optional: show future-dated posts/pages if you add them later
 future: true
