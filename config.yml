@@ -1,0 +1,14 @@
+title: "YOUR CHALLENGE NAME"
+description: "Short one-liner about the goal of your challenge."
+# For a GitHub Project site: https://USERNAME.github.io/REPO/
+# set baseurl: "/REPO" and url: "https://USERNAME.github.io"
+# For a User site: https://USERNAME.github.io/
+# set baseurl: "" and url: "https://USERNAME.github.io"
+url: "https://USERNAME.github.io"
+baseurl: "/REPO"
+
+markdown: kramdown
+permalink: pretty
+
+# Optional: show future-dated posts/pages if you add them later
+future: true
