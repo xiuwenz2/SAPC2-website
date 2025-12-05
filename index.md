@@ -46,44 +46,34 @@ hero_meta: >
 
 </div>
 
-# <a id="call"></a>Introduction
-Welcome to the Speech Accessibility Project Challenge 2. This challenge seeks to rapidly advance the state of the art in dysarthric speech recognition. 
+## <a id="call"></a>Introduction
+Welcome to the Speech Accessibility Project Challenge 2(SAPC2).
 
+SAPC2 builds on the success of the Interspeech 2025 Speech Accessibility Project Challenge, which demonstrated significant progress in dysarthric speech recognition — reducing Word Error Rate (WER) from the Whisper-large-v2 baseline of 17.82% to 8.11%. This new edition introduces a larger, more diverse, and etiology-balanced corpus, further promoting fairness, robustness, and inclusivity in impaired-speech ASR. The challenge invites the research community to push the state of the art, develop innovative modeling techniques, and set new standards for accessible speech technology.
 
-
-#### References
-- [1] Hasegawa-Johnson, M., et al. *Community-supported shared infrastructure in support of speech accessibility.* **JSLHR**, 67(11), 4162–4175, 2024.
-- [2] Zheng, X., et al. *The Interspeech 2025 Speech Accessibility Project Challenge.* **Proc. Interspeech**, 2025.
-- [3] Gohider, N., et al. *Towards Inclusive and Fair ASR: Insights from the SAPC Challenge for Optimizing Disordered Speech Recognition.* **Proc. Interspeech**, 2025.
-- [4] Ducorroy, A., et al. *Robust fine-tuning of speech recognition models via model merging: application to disordered speech.* **Proc. Interspeech**, 2025.
-- [5] La Quatra, M., et al. *Exploring Generative Error Correction for Dysarthric Speech Recognition.* **Proc. Interspeech**, 2025.
-- [6] Baumann, I., et al. *Pathology-Aware Speech Encoding and Data Augmentation for Dysarthric Speech Recognition.* **Proc. Interspeech**, 2025.
-- [7] Wagner, D., et al. *Personalized Fine-Tuning with Controllable Synthetic Speech from LLM-Generated Transcripts for Dysarthric Speech Recognition.* **Proc. Interspeech**, 2025.
-- [8] Wang, S., et al. *A Self-Training Approach for Whisper to Enhance Long Dysarthric Speech Recognition.* **Proc. Interspeech**, 2025.
-- [9] Takahashi, K., et al. *Fine-tuning Parakeet-TDT for Dysarthric Speech Recognition in the Speech Accessibility Project Challenge.* **Proc. Interspeech**, 2025.
-- [10] Tan, T., et al. *CBA-Whisper: Curriculum Learning-Based AdaLoRA Fine-Tuning on Whisper for Low-Resource Dysarthric Speech Recognition.* **Proc. Interspeech**, 2025.
-
-<!--
-### <a id="call"></a>Introduction
-
-Welcome to the Speech Accessibility Project Challenge 2. This challenge seeks to rapidly advance the state of the art in dysarthric speech recognition. 
-
-### <a id="call"></a>Data
-
-Compared to the SAPC dataset, SAPC2 data is more challenging.
-
-### <a id="call"></a>Challenge Tracks
+## <a id="call"></a>Challenge Tracks
 The challenge features two complementary tracks:
+1. **Unconstrained ASR Track**: Participants may use models of any size or architecture, aiming to advance the state of the art in dysarthric speech recognition.
+2. **Efficiency-Constrained ASR Track**: Submitted systems must meet strict limits on model size and inference time, promoting lightweight and deployable solutions for real-world use.
 
-Main Track: Participants can use open-source data to post-train open-source models, focusing on intrinsic model reasoning capabilities.
-Limited-resource Track: Participants can use open-source models to build an agent system or pipeline without human-in-the-loop, emphasizing system-level orchestration and tool use.
+## <a id="call"></a>Evaluation Metrics
+We evaluate system performance using transcripts normalized with a fully-formatted normalizer adapted from the HuggingFace ASR leaderboard. Two metrics are used to assess transcription accuracy:
+- **Character Error Rate** (CER): Primary metric, chosen for its sensitivity to pronunciation variations in dysarthric speech.
+- **Word Error Rate** (WER): Secondary metric, reported for comparison with prior work and related literature.
 
-### <a id="call"></a>Evaluation Metrics
-We adpte CER and WER as metrics:
-Metric 1: CER (Primary)
-Metric 2: WER
+Both metrics are clipped to 100% at the utterance level. Scores are computed using two references (with/without disfluencies) and the lower error is selected per utterance.
+
+### References
+- [1] Hasegawa-Johnson, M., et al. *Community-supported shared infrastructure in support of speech accessibility.* JSLHR, 67(11), 4162–4175, 2024.
+- [2] Zheng, X., et al. *The Interspeech 2025 Speech Accessibility Project Challenge.* Proc. Interspeech, 2025.
+- [3] Gohider, N., et al. *Towards Inclusive and Fair ASR: Insights from the SAPC Challenge for Optimizing Disordered Speech Recognition.* Proc. Interspeech, 2025.
+- [4] Ducorroy, A., et al. *Robust fine-tuning of speech recognition models via model merging: application to disordered speech.* Proc. Interspeech, 2025.
+- [5] La Quatra, M., et al. *Exploring Generative Error Correction for Dysarthric Speech Recognition.* Proc. Interspeech, 2025.
+- [6] Baumann, I., et al. *Pathology-Aware Speech Encoding and Data Augmentation for Dysarthric Speech Recognition.* Proc. Interspeech, 2025.
+- [7] Wagner, D., et al. *Personalized Fine-Tuning with Controllable Synthetic Speech from LLM-Generated Transcripts for Dysarthric Speech Recognition.* Proc. Interspeech, 2025.
+- [8] Wang, S., et al. *A Self-Training Approach for Whisper to Enhance Long Dysarthric Speech Recognition.* Proc. Interspeech, 2025.
+- [9] Takahashi, K., et al. *Fine-tuning Parakeet-TDT for Dysarthric Speech Recognition in the Speech Accessibility Project Challenge.* Proc. Interspeech, 2025.
+- [10] Tan, T., et al. *CBA-Whisper: Curriculum Learning-Based AdaLoRA Fine-Tuning on Whisper for Low-Resource Dysarthric Speech Recognition.* Proc. Interspeech, 2025.
 
 ### <a id="call"></a>Acknowledgements
 The Speech Accessibility Project is funded by a grant from the AI Accessibility Coalition. Computational resources for the challenge are provided by the National Center for Supercomputing Applications.
--->
-
