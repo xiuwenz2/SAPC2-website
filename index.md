@@ -52,17 +52,16 @@ Welcome to the Speech Accessibility Project Challenge 2. This challenge seeks to
 
 
 #### References
-- [1] Hasegawa-Johnson, M., et al. *Community-supported shared infrastructure in support of speech accessibility.* JSLHR, 67(11), 4162–4175, 2024.
-- [2] Zheng, X., et al. *The Interspeech 2025 Speech Accessibility Project Challenge.* Proc. Interspeech, 2025.
-- [3] Gohider, N., & Basir, O. *Towards Inclusive and Fair ASR: Insights from the SAPC Challenge for Optimizing Disordered Speech Recognition.* Proc. Interspeech, 2025.
-- [4] Ducorroy, A., & Riad, R. *Robust fine-tuning of speech recognition models via model merging: application to disordered speech.* Proc. Interspeech, 2025.
-- [5] La Quatra, M., Koudounas, A., Salerno, V. M., & Siniscalchi, S. M. *Exploring Generative Error Correction for Dysarthric Speech Recognition.* Proc. Interspeech, 2025.
-- [6] Baumann, I., Wagner, D., Riedhammer, K., & Bocklet, T. *Pathology-Aware Speech Encoding and Data Augmentation for Dysarthric Speech Recognition.* Proc. Interspeech, 2025.
-- [7] Wagner, D., Baumann, I., Engert, N., Lee, S., Nöth, E., Riedhammer, K., & Bocklet, T. *Personalized Fine-Tuning with Controllable Synthetic Speech from LLM-Generated Transcripts for Dysarthric Speech Recognition.* Proc. Interspeech, 2025.
-- [8] Wang, S., Zhou, J., Zhao, S., & Qin, Y. *A Self-Training Approach for Whisper to Enhance Long Dysarthric Speech Recognition.* Proc. Interspeech, 2025.
-- [9] Takahashi, K., Hojo, K., Sakai, T., Wakabayashi, Y., & Kitaoka, N. *Fine-tuning Parakeet-TDT for Dysarthric Speech Recognition in the Speech Accessibility Project Challenge.* Proc. Interspeech, 2025.
-- [10] Tan, T., Chen, X., Le, X., Fan, W., Xia, X., Huang, C., & Lu, J. *CBA-Whisper: Curriculum Learning-Based AdaLoRA Fine-Tuning on Whisper for Low-Resource Dysarthric Speech Recognition.* Proc. Interspeech, 2025.
-
+- [1] Hasegawa-Johnson, M., et al. *Community-supported shared infrastructure in support of speech accessibility.* **JSLHR**, 67(11), 4162–4175, 2024.
+- [2] Zheng, X., et al. *The Interspeech 2025 Speech Accessibility Project Challenge.* **Proc. Interspeech**, 2025.
+- [3] Gohider, N., et al. *Towards Inclusive and Fair ASR: Insights from the SAPC Challenge for Optimizing Disordered Speech Recognition.* **Proc. Interspeech**, 2025.
+- [4] Ducorroy, A., et al. *Robust fine-tuning of speech recognition models via model merging: application to disordered speech.* **Proc. Interspeech**, 2025.
+- [5] La Quatra, M., et al. *Exploring Generative Error Correction for Dysarthric Speech Recognition.* **Proc. Interspeech**, 2025.
+- [6] Baumann, I., et al. *Pathology-Aware Speech Encoding and Data Augmentation for Dysarthric Speech Recognition.* **Proc. Interspeech**, 2025.
+- [7] Wagner, D., et al. *Personalized Fine-Tuning with Controllable Synthetic Speech from LLM-Generated Transcripts for Dysarthric Speech Recognition.* **Proc. Interspeech**, 2025.
+- [8] Wang, S., et al. *A Self-Training Approach for Whisper to Enhance Long Dysarthric Speech Recognition.* **Proc. Interspeech**, 2025.
+- [9] Takahashi, K., et al. *Fine-tuning Parakeet-TDT for Dysarthric Speech Recognition in the Speech Accessibility Project Challenge.* **Proc. Interspeech**, 2025.
+- [10] Tan, T., et al. *CBA-Whisper: Curriculum Learning-Based AdaLoRA Fine-Tuning on Whisper for Low-Resource Dysarthric Speech Recognition.* **Proc. Interspeech**, 2025.
 
 <!--
 ### <a id="call"></a>Introduction
