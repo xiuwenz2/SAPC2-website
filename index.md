@@ -66,6 +66,9 @@ We evaluate system performance using transcripts normalized with a fully-formatt
 
 Both metrics are clipped to 100% at the utterance level. Scores are computed using two references (with/without disfluencies) and the lower error is selected per utterance.
 
+## <a id="call"></a>Prizes
+To be announced soon!
+
 ## References
 - [1] Hasegawa-Johnson, M., et al. *Community-supported shared infrastructure in support of speech accessibility.* JSLHR, 67(11), 4162–4175, 2024.
 - [2] Zheng, X., et al. *The Interspeech 2025 Speech Accessibility Project Challenge.* Proc. Interspeech, 2025.
