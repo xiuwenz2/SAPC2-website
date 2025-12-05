@@ -108,12 +108,12 @@ h3 { font-size: 1.12rem; }
   font-weight: 700;
   color: #E84A27;                   /* UIUC orange date */
   margin-bottom: 4px;
-  font-size: 0.9rem;
+  font-size: 1.00rem;
 }
 
 .news-text {
   line-height: 1.55;
-  font-size: 1.00rem;
+  font-size: 0.95rem;
 }
 
 /* ---------- Links ---------- */
@@ -121,12 +121,10 @@ h3 { font-size: 1.12rem; }
 /* Global link style in content */
 a {
   color: #707372;                   /* Strom */
-  font-weight: 300;
   text-decoration: underline;
 }
 
 a:hover {
   color: #E84A27;                   /* UIUC orange on hover */
-  font-weight: 300;
   text-decoration: underline;
 }
