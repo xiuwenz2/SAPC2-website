@@ -79,15 +79,3 @@ body {
 .news-text {
   line-height: 1.55;
 }
-
-/* Change default link color */
-a {
-  color: #666666;        /* grey */
-  text-decoration: none; /* optional: remove underline */
-}
-
-/* Color on hover */
-a:hover {
-  color: #333333;        /* darker grey on hover */
-  text-decoration: underline; /* optional */
-}
