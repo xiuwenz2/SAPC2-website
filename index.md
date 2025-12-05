@@ -12,7 +12,7 @@ hero_meta: >
   and what people get out of participating (e.g. leaderboard, paper track, prizes).
 ---
 
-### News
+## News
 
 <div class="news-list">
 
@@ -62,7 +62,7 @@ We evaluate system performance using transcripts normalized with a fully-formatt
 
 Both metrics are clipped to 100% at the utterance level. Scores are computed using two references (with/without disfluencies) and the lower error is selected per utterance.
 
-### References
+## References
 - [1] Hasegawa-Johnson, M., et al. *Community-supported shared infrastructure in support of speech accessibility.* JSLHR, 67(11), 4162–4175, 2024.
 - [2] Zheng, X., et al. *The Interspeech 2025 Speech Accessibility Project Challenge.* Proc. Interspeech, 2025.
 - [3] Gohider, N., et al. *Towards Inclusive and Fair ASR: Insights from the SAPC Challenge for Optimizing Disordered Speech Recognition.* Proc. Interspeech, 2025.
@@ -74,5 +74,5 @@ Both metrics are clipped to 100% at the utterance level. Scores are computed usi
 - [9] Takahashi, K., et al. *Fine-tuning Parakeet-TDT for Dysarthric Speech Recognition in the Speech Accessibility Project Challenge.* Proc. Interspeech, 2025.
 - [10] Tan, T., et al. *CBA-Whisper: Curriculum Learning-Based AdaLoRA Fine-Tuning on Whisper for Low-Resource Dysarthric Speech Recognition.* Proc. Interspeech, 2025.
 
-### <a id="call"></a>Acknowledgements
+## <a id="call"></a>Acknowledgements
 The Speech Accessibility Project is funded by a grant from the AI Accessibility Coalition. Computational resources for the challenge are provided by the National Center for Supercomputing Applications.
