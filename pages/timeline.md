@@ -4,7 +4,7 @@ title: "Timeline"
 permalink: /timeline/
 ---
 
-## Important dates
+## Important Dates
 
 <div class="news-list">
 
