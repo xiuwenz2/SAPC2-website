@@ -6,13 +6,50 @@ permalink: /timeline/
 
 ## Important dates
 
-| Event | Date |
-|---|---|
-| Registration opens | YYYY-MM-DD |
-| Data release | YYYY-MM-DD |
-| Leaderboard opens | YYYY-MM-DD |
-| Submission deadline | YYYY-MM-DD |
-| Winners announced | YYYY-MM-DD |
-| Paper deadline (optional) | YYYY-MM-DD |
+<div class="news-list">
 
-**Note:** You can keep the leaderboard open after the official deadline, but only count submissions before the deadline for final rankings (ARC does this).
+  <div class="news-item">
+    <div class="news-date">2025-12-03</div>
+    <div class="news-text">
+      Registration opens
+    </div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">2026-03-01</div>
+    <div class="news-text">
+      Data release
+    </div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">2026-03-01</div>
+    <div class="news-text">
+      Leaderboard opens
+    </div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">2026-04-30</div>
+    <div class="news-text">
+      Submission deadline
+    </div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">2026-05-01</div>
+    <div class="news-text">
+      Winners announced
+    </div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">2025-05-15</div>
+    <div class="news-text">
+      Paper deadline
+    </div>
+  </div>
+
+</div>
+
+**Note:** With SAP data approval usually taking 2–4 weeks, we strongly encourage participants to apply in advance to ensure timely access for the challenge.
