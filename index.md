@@ -51,8 +51,7 @@ hero_meta: >
 
 ## <a id="call"></a>Introduction
 Welcome to the Speech Accessibility Project Challenge 2(SAPC2).
-
-SAPC2 builds on the success of the Interspeech 2025 Speech Accessibility Project Challenge, which demonstrated significant progress in dysarthric speech recognition — reducing Word Error Rate (WER) from the Whisper-large-v2 baseline of 17.82% to 8.11%. This new edition introduces a larger, more diverse, and etiology-balanced corpus, further promoting fairness, robustness, and inclusivity in impaired-speech ASR. The challenge invites the research community to push the state of the art, develop innovative modeling techniques, and set new standards for accessible speech technology.
+SAPC2 builds on the success of the Interspeech 2025 Speech Accessibility Project Challenge (<a href="https://eval.ai/web/challenges/challenge-page/2362/overview">Challenge API</a>), which demonstrated significant progress in dysarthric speech recognition — reducing Word Error Rate (WER) from the Whisper-large-v2 baseline of 17.82% to 8.11%. This new edition introduces a larger, more diverse, and etiology-balanced corpus, further promoting fairness, robustness, and inclusivity in impaired-speech ASR. The challenge invites the research community to push the state of the art, develop innovative modeling techniques, and set new standards for accessible speech technology.
 
 ## <a id="call"></a>Challenge Tracks
 The challenge features two complementary tracks:
