@@ -40,6 +40,7 @@ body {
 /* Ensure site title never underlined */
 .site-title,
 .site-title:hover {
+  color: #E84A27; 
   text-decoration: none;
 }
 
@@ -133,6 +134,7 @@ a {
 /* Links inside main content area */
 .page-content a {
   color: #707372;
+  text-decoration: underline;
 }
 
 /* Underline + orange hover ONLY in content */
