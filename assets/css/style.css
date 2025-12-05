@@ -37,8 +37,6 @@ body {
   letter-spacing: 0.02em;
 }
 
-/* Ensure site title never underlined */
-.site-title,
 .site-title:hover {
   color: #E84A27; 
   text-decoration: none;
