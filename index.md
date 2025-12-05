@@ -14,11 +14,32 @@ hero_meta: >
 
 ### News
 
-| Date        | Announcement |
-|-------------|--------------|
-| **2025-12-03** | Dataset requests are now open ([link](https://speechaccessibilityproject.beckman.illinois.edu/conduct-research-through-the-project)). Email your Data User Agreement ([DUA](https://speechaccessibilityproject.beckman.illinois.edu/docs/librariesprovider8/default-document-library/data-transfer-and-use-agreement-speech-accessibility-project.pdf?sfvrsn=909bd90f_20)) and **a brief proposal** indicating SAPC2 purpose to **speechaccessibility@beckman.illinois.edu**. Approval takes **~2–4 weeks**, and approved participants will receive access to the dataset starting **2026-03-01**, with rolling updates thereafter. |
-| **2025-12-03** | Team registration is now open (link). Please complete your registration by **2026-02-28** to participate in the challenge. |
-| **2025-12-03** | SAPC 2 Challenge website launched. |
+<div class="news-list">
+
+<div class="news-item">
+  <div class="news-date">2025-12-03</div>
+  <div class="news-text">
+    Dataset requests are now open ([link](https://speechaccessibilityproject.beckman.illinois.edu/conduct-research-through-the-project)).  
+    Submit your DUA ([pdf](https://speechaccessibilityproject.beckman.illinois.edu/docs/librariesprovider8/default-document-library/data-transfer-and-use-agreement-speech-accessibility-project.pdf?sfvrsn=909bd90f_20)) and a brief proposal to **speechaccessibility@beckman.illinois.edu**  
+    (*approval ~2–4 weeks; access starts **2026-03-01***).
+  </div>
+</div>
+
+<div class="news-item">
+  <div class="news-date">2025-12-03</div>
+  <div class="news-text">
+    Team registration is now open. Deadline: **2026-02-28**.
+  </div>
+</div>
+
+<div class="news-item">
+  <div class="news-date">2025-12-03</div>
+  <div class="news-text">
+    SAPC 2 Challenge website launched!
+  </div>
+</div>
+
+</div>
 
 <!--
 ### <a id="call"></a>Introduction
