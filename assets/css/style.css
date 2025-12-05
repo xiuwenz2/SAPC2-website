@@ -152,13 +152,15 @@ a {
 }
 
 .table-wrapper {
-  overflow-x: auto;
+  width: 100%;
+  overflow-x: auto;   /* allows horizontal scroll on very small screens */
 }
 
 .baseline-table {
-  width: 100%;
+  width: 100%;        /* fills the container, shrinks/grows with it */
+  max-width: 100%;
   border-collapse: collapse;
-  font-size: 0.9rem;
+  table-layout: auto; /* columns adapt to content */
 }
 
 .baseline-table th,
@@ -173,3 +175,7 @@ a {
   font-weight: 600;
 }
 
+.baseline-legend {
+  margin-top: 0.5rem;
+  font-size: 0.9rem;
+}
