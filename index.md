@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "YOUR CHALLENGE NAME"
+title: "Speech Accessibility Project Challenge 2"
 subtitle: "Workshop/Conference · YEAR"
 is_home: true
 cta_label: "Go to EvalAI"
