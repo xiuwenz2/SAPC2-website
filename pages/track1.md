@@ -8,14 +8,12 @@ permalink: /track1/
 
 **Goal:** Advance the state of the art in dysarthric speech recognition.
 
-<h3 style="margin-bottom:0;">Baseline Results</h3>
-<div class="baseline-block">
-  <p class="baseline-note">
-    Official baselines follow the same ranking system as the <a href="https://huggingface.co/spaces/hf-audio/open_asr_leaderboard">HuggingFace Open ASR Leaderboard</a>.<br>
-    <!-- Official baselines and reproducible code are available at
-    <a href="YOUR_BASELINES_REPO_URL" target="_blank" rel="noopener">this repository</a>. -->
-  </p>
+### Baseline Results
+Official baselines follow the same ranking system as the <a href="https://huggingface.co/spaces/hf-audio/open_asr_leaderboard">HuggingFace Open ASR Leaderboard</a>
+<!-- Official baselines and reproducible code are available at
+<a href="YOUR_BASELINES_REPO_URL" target="_blank" rel="noopener">this repository</a>. -->
 
+<div class="baseline-block">
   <div class="table-wrapper">
     <table class="baseline-table">
       <thead>
