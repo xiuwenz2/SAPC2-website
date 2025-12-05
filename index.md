@@ -24,17 +24,14 @@ hero_meta: >
       (<a href="https://speechaccessibilityproject.beckman.illinois.edu/conduct-research-through-the-project">link</a>), by
       submitting the DUA
       (<a href="https://speechaccessibilityproject.beckman.illinois.edu/docs/librariesprovider8/default-document-library/data-transfer-and-use-agreement-speech-accessibility-project.pdf?sfvrsn=909bd90f_20">link</a>)
-      + proposal to <a href="mailto:speechaccessibility@beckman.illinois.edu">email</a>.<br>
-      <em>Approval typically takes ~2–4 weeks. Access begins on <strong>2026-03-01</strong> for early approvals, or immediately once approved after that date.</em>
+      and a one-page proposal to <a href="mailto:speechaccessibility@beckman.illinois.edu">email</a>.<br>
+      <em>Approval typically takes ~2–4 weeks.  Upon approval, access will be immediately granted
+      to the SAP Research Release, which contains most of the same waveforms that will be part of
+      the official competition release, but in a different data format.  The official competition
+      release will be made available on <strong>2026-03-01</strong> to early approvals, or immediately
+      once approved after that date.</em>
     </div>
   </div>
-
-<div class="news-item">
-  <div class="news-date">2025-12-03</div>
-  <div class="news-text">
-    Team registration is now open through (<a href="https://speechaccessibilityproject.beckman.illinois.edu/conduct-research-through-the-project">link</a>).
-  </div>
-</div>
 
 <div class="news-item">
   <div class="news-date">2025-12-03</div>
@@ -57,7 +54,7 @@ The challenge features two complementary tracks:
 
 ## <a id="call"></a>Evaluation Metrics
 We evaluate system performance using transcripts normalized with a fully-formatted normalizer adapted from the HuggingFace ASR leaderboard. Two metrics are used to assess transcription accuracy:
-- **Character Error Rate** (CER): Primary metric, chosen for its sensitivity to pronunciation variations in dysarthric speech.
+- **Character Error Rate** (CER): Primary metric, chosen for its better correlation with human judgments and for its sensitivity to pronunciation variations in dysarthric speech.
 - **Word Error Rate** (WER): Secondary metric, reported for comparison with prior work and related literature.
 
 Both metrics are clipped to 100% at the utterance level. Scores are computed using two references (with/without disfluencies) and the lower error is selected per utterance.
@@ -73,6 +70,7 @@ Both metrics are clipped to 100% at the utterance level. Scores are computed usi
 - [8] Wang, S., et al. *A Self-Training Approach for Whisper to Enhance Long Dysarthric Speech Recognition.* Proc. Interspeech, 2025.
 - [9] Takahashi, K., et al. *Fine-tuning Parakeet-TDT for Dysarthric Speech Recognition in the Speech Accessibility Project Challenge.* Proc. Interspeech, 2025.
 - [10] Tan, T., et al. *CBA-Whisper: Curriculum Learning-Based AdaLoRA Fine-Tuning on Whisper for Low-Resource Dysarthric Speech Recognition.* Proc. Interspeech, 2025.
+- [11] Thennal, D.K., et al. *Advocating Character Error Rate for Multilingual ASR Evaluation.* Findings of ACL: NAACL 2025
 
 ## <a id="call"></a>Acknowledgements
 The Speech Accessibility Project is funded by a grant from the AI Accessibility Coalition. Computational resources for the challenge are provided by the National Center for Supercomputing Applications.
