@@ -24,8 +24,7 @@ hero_meta: >
       (<a href="https://speechaccessibilityproject.beckman.illinois.edu/conduct-research-through-the-project">link</a>), by
       submitting the DUA
       (<a href="https://speechaccessibilityproject.beckman.illinois.edu/docs/librariesprovider8/default-document-library/data-transfer-and-use-agreement-speech-accessibility-project.pdf?sfvrsn=909bd90f_20">link</a>)
-      + proposal to <a href="mailto:speechaccessibility@beckman.illinois.edu">email</a>
-.<br>
+      + proposal to <a href="mailto:speechaccessibility@beckman.illinois.edu">email</a>.<br>
       <em>Approval typically takes ~2–4 weeks. Access begins on <strong>2026-03-01</strong> for early approvals, or immediately once approved after that date.</em>
     </div>
   </div>
