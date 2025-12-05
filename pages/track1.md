@@ -10,7 +10,6 @@ permalink: /track1/
 
 ### Baseline Results
 <div class="baseline-block">
-
   <p class="baseline-note">
     Official baselines follow the same ranking system as the <a href="https://huggingface.co/spaces/hf-audio/open_asr_leaderboard">HuggingFace Open ASR Leaderboard</a>.<br>
     <!-- Official baselines and reproducible code are available at
