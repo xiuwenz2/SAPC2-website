@@ -30,7 +30,7 @@ body {
 
 /* Site title */
 .site-title {
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: #13294B;                   /* UIUC blue */
   text-decoration: none;
@@ -40,7 +40,7 @@ body {
 /* Nav links */
 .site-nav a {
   margin-left: 1rem;
-  color: #4b5563;                   /* neutral gray */
+  color: #707372;                   /* Strom */
   text-decoration: none;
   font-weight: 500;
   font-size: 0.95rem;
@@ -48,7 +48,7 @@ body {
 
 .site-nav a:hover {
   color: #E84A27;                   /* UIUC orange on hover */
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* ---------- Main content ---------- */
@@ -118,8 +118,8 @@ h3 { font-size: 1.12rem; }
 
 /* Global link style in content */
 a {
-  color: #13294B;                   /* UIUC blue */
-  text-decoration: none;
+  color: #707372;                   /* Strom */
+  text-decoration: underline;
 }
 
 a:hover {
