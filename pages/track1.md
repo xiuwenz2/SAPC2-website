@@ -4,7 +4,7 @@ title: "Track 1"
 permalink: /track1/
 ---
 
-## Track 1: Unconstrained ASR
+## Track 1: Unconstrained ASR Track
 
 **Goal:** Advance the state of the art in dysarthric speech recognition.
 
