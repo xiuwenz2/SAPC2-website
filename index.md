@@ -32,7 +32,7 @@ hero_meta: >
 <div class="news-item">
   <div class="news-date">2025-12-03</div>
   <div class="news-text">
-    Team registration is now open through (<a href="https://speechaccessibilityproject.beckman.illinois.edu/conduct-research-through-the-project">link</a>).
+    Team registration is now open through (link).
   </div>
 </div>
 
