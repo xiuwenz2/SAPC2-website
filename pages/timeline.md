@@ -11,45 +11,44 @@ permalink: /timeline/
   <div class="news-item">
     <div class="news-date">2025-12-03</div>
     <div class="news-text">
-      Registration opens
+      **Registration opens** through (<a href="https://speechaccessibilityproject.beckman.illinois.edu/conduct-research-through-the-project">link</a>).The deadline is yet to be announced.
     </div>
   </div>
 
   <div class="news-item">
     <div class="news-date">2026-03-01</div>
     <div class="news-text">
-      Data release
+      **Data (challenge release) access** for approved participants begins.
+      **Note:** SAP data approval typically takes ~2–4 weeks. Research-release access is granted immediately upon approval, while challenge-release access will be available starting 2026-03-01.
     </div>
   </div>
 
   <div class="news-item">
     <div class="news-date">2026-03-01</div>
     <div class="news-text">
-      Leaderboard opens
+      **Leaderboard opens** for system submission and benchmarking.
     </div>
   </div>
 
   <div class="news-item">
     <div class="news-date">2026-04-30</div>
     <div class="news-text">
-      Submission deadline
+      **Leaderboard closes** for system submission and benchmarking.
     </div>
   </div>
 
   <div class="news-item">
-    <div class="news-date">2026-05-01</div>
+    <div class="news-date">2025-04-24</div>
     <div class="news-text">
-      Winners announced
+      ICML workshop paper **submission suggested deadline** (tentative, pending approval)
     </div>
   </div>
 
   <div class="news-item">
     <div class="news-date">2025-05-15</div>
     <div class="news-text">
-      Paper deadline
+      ICML workshop paper **submission hard deadline** (tentative, pending approval)
     </div>
   </div>
 
 </div>
-
-**Note:** With SAP data approval usually taking 2–4 weeks, we strongly encourage participants to apply in advance to ensure timely access for the challenge.
