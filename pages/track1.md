@@ -9,7 +9,6 @@ permalink: /track1/
 **Goal:** Advance the state of the art in dysarthric speech recognition.
 
 ### Baseline Results
-
 <div class="baseline-block">
 
   <p class="baseline-note">
@@ -22,7 +21,7 @@ permalink: /track1/
     <table class="baseline-table">
       <thead>
         <tr>
-          <th rowspan="2">Model ID</th>
+          <th rowspan="1">Model ID</th>
           <th colspan="2">CER ↓</th>
           <th colspan="2">WER ↓</th>
         </tr>
