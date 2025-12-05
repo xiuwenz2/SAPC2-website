@@ -36,6 +36,13 @@ hero_meta: >
 <div class="news-item">
   <div class="news-date">2025-12-03</div>
   <div class="news-text">
+    Team registration is now open through (link).
+  </div>
+</div>
+
+<div class="news-item">
+  <div class="news-date">2025-12-03</div>
+  <div class="news-text">
     SAPC 2 Challenge website launched!
   </div>
 </div>

@@ -9,7 +9,6 @@ permalink: /track1/
 **Goal:** Advance the state of the art in dysarthric speech recognition.
 
 ### Baseline Results
-
 <div class="baseline-block">
 
   <p class="baseline-note">
