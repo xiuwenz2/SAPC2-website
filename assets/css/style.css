@@ -72,10 +72,27 @@ body {
 
 .news-date {
   font-weight: 600;
-  color: #2563eb;
+  color: #13294B;
   margin-bottom: 4px;
 }
 
 .news-text {
   line-height: 1.55;
+}
+
+/* Global link color (UIUC palette) */
+a {
+  color: #13294B;            /* UIUC blue */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E84A27;            /* UIUC orange on hover (optional) */
+  text-decoration: underline;
+}
+
+/* UIUC blue headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #13294B;   /* Illinois Blue */
+  font-weight: 700;
 }
