@@ -25,7 +25,7 @@ hero_meta: >
       submitting the DUA
       (<a href="https://speechaccessibilityproject.beckman.illinois.edu/docs/librariesprovider8/default-document-library/data-transfer-and-use-agreement-speech-accessibility-project.pdf?sfvrsn=909bd90f_20">link</a>)
       and a one-page proposal to <a href="mailto:speechaccessibility@beckman.illinois.edu">email</a>.<br>
-      <em>Approval typically takes ~2–4 weeks.  Upon approval, access will be immediately granted
+      <em><span class="highlight-date">Approval typically takes ~2–4 weeks.</span>  Upon approval, access will be immediately granted
       to the SAP Research Release, which contains most of the same waveforms that will be part of
       the official competition release, but in a different data format.  The official competition
       release will be made available on <strong>2026-03-01</strong> to early approvals, or immediately
