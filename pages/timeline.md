@@ -18,7 +18,7 @@ permalink: /timeline/
   <div class="news-item">
     <div class="news-date">2026-03-01</div>
     <div class="news-text">
-      <strong>Data (challenge release) access</strong> for approved participants begins.<br>
+      <strong>Data (challenge-release) access</strong> for approved participants begins.<br>
       Note: SAP data approval typically takes ~2–4 weeks. Research-release access is granted immediately upon approval.
     </div>
   </div>
