@@ -11,7 +11,7 @@ permalink: /timeline/
   <div class="news-item">
     <div class="news-date">2025-12-03</div>
     <div class="news-text">
-      <strong>Registration opens</strong> through (<a href="https://forms.gle/bajUuCF6xZYbVq2A9">link</a>).
+      <strong>Registration opens</strong> through <a href="https://forms.gle/bajUuCF6xZYbVq2A9">link</a>.
     </div>
   </div>
 
