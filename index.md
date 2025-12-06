@@ -36,7 +36,7 @@ hero_meta: >
 <div class="news-item">
   <div class="news-date">2025-12-03</div>
   <div class="news-text">
-    Team registration is now open through (link).
+    Team registration is now open through <a href="https://forms.gle/bajUuCF6xZYbVq2A9">link</a>.
   </div>
 </div>
 
