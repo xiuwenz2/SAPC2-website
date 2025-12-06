@@ -186,3 +186,10 @@ a {
   margin-top: 0.5rem;
   font-size: 0.9rem;
 }
+
+<style>
+  .highlight-date {
+    color: #E84A27; /* pick any color you like */
+    font-weight: bold;
+  }
+</style>
