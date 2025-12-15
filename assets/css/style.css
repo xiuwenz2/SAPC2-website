@@ -38,7 +38,7 @@ body {
 }
 
 .site-title:hover {
-  color: #E84A27;
+  color: #E84A27; 
   text-decoration: none;
 }
 
@@ -141,8 +141,6 @@ a {
   text-decoration: underline;
 }
 
-/* ---------- Baseline leaderboard table ---------- */
-
 .baseline-block {
   margin-top: 1.5rem;
   margin-bottom: 2rem;
@@ -159,30 +157,32 @@ a {
 }
 
 .baseline-table {
-  table-layout: fixed;
-  width: 100%;
+  /* width: 100%;        /* fills the container, shrinks/grows with it */ */
+  max-width: 100%;
+  border-collapse: collapse;
+  table-layout: auto; /* columns adapt to content */
 }
 
-/* IMPORTANT: target the <col> elements directly */
-.baseline-table col.col-model {
-  width: 55%;
-}
-
-.baseline-table col.col-metric {
-  width: 5.625%;
-}
-
-.baseline-table td:first-child {
-  white-space: normal;
-  word-break: break-word;
-}
-
-.baseline-table thead tr:nth-child(2) th {
+.baseline-table th,
+.baseline-table td {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid #ddd;
   text-align: center;
+}
+
+.baseline-table th:first-child,
+.baseline-table td:first-child {
+  /* width: 15%;           /* tweak this % until it looks right */ */
+  white-space: nowrap;  /* prevents the model id from wrapping */
+  text-align: left;
+}
+
+.baseline-table thead {
+  background: #f5f5f5;
+  font-weight: 600;
 }
 
 .baseline-legend {
   margin-top: 0.5rem;
   font-size: 0.9rem;
 }
-
