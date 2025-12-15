@@ -142,47 +142,75 @@ a {
 }
 
 .baseline-block {
-  margin-top: 1.5rem;
-  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
 }
 
 .baseline-note {
-  font-size: 0.95rem;
-  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
 }
 
 .table-wrapper {
-  width: 100%;
-  overflow-x: auto;   /* allows horizontal scroll on very small screens */
+  width: 100%;
+  overflow-x: auto;   /* allows horizontal scroll on very small screens */
 }
 
+/* ---------------------------------------------------------------- */
+/* --- UPDATED BASELINE TABLE STYLES FOR LINES, WIDTH, AND COLOR ---*/
+/* ---------------------------------------------------------------- */
+
 .baseline-table {
-  /* width: 100%;        /* fills the container, shrinks/grows with it */ */
-  max-width: 100%;
-  border-collapse: collapse;
-  table-layout: auto; /* columns adapt to content */
+  max-width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed; /* Use fixed layout for better column width control */
+  margin-bottom: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08); /* Added shadow */
 }
 
 .baseline-table th,
 .baseline-table td {
-  padding: 0.4rem 0.6rem;
-  border: 1px solid #ddd;
-  text-align: center;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid #dee2e6; /* Light gray border lines */
+  text-align: center;
 }
 
+/* 1. Wider First Column (Model ID) - CUSTOMIZABLE WIDTH */
 .baseline-table th:first-child,
 .baseline-table td:first-child {
-  width: 9%;           /* tweak this % until it looks right */
-  white-space: nowrap;  /* prevents the model id from wrapping */
-  text-align: left;
+  width: 250px;            /* New fixed width */
+  white-space: normal;    /* Allow wrapping if needed */
+  text-align: left;
+  padding-left: 12px;
+  font-weight: 600;
 }
 
+/* 2. Equal Width for Metric Columns (excluding the first) */
+.baseline-table th:not(:first-child),
+.baseline-table td:not(:first-child) {
+  width: auto; /* Allow browser to distribute remaining space equally */
+}
+
+/* 3. Header and Color Styling */
 .baseline-table thead {
-  background: #f5f5f5;
-  font-weight: 600;
+  font-weight: 700;
+}
+
+.baseline-table thead tr:first-child th {
+  background-color: #13294B; /* UIUC Blue for top header */
+  color: white;
+}
+
+.baseline-table thead tr:nth-child(2) th {
+  background-color: #1a3962; /* Slightly darker shade for sub-headers */
+  color: white;
+  font-weight: 500;
+}
+
+/* 4. Alternating Row Colors */
+.baseline-table tbody tr:nth-child(even) {
+  background-color: #f8f9fa; /* Very light gray for even rows */
 }
 
 .baseline-legend {
-  margin-top: 0.5rem;
-  font-size: 0.9rem;
-}
+/* ... [Keep the rest of the file unchanged] ... */
