@@ -38,7 +38,7 @@ body {
 }
 
 .site-title:hover {
-  color: #E84A27; 
+  color: #E84A27;
   text-decoration: none;
 }
 
@@ -141,6 +141,8 @@ a {
   text-decoration: underline;
 }
 
+/* ---------- Baseline leaderboard table ---------- */
+
 .baseline-block {
   margin-top: 1.5rem;
   margin-bottom: 2rem;
@@ -156,25 +158,26 @@ a {
   overflow-x: auto;   /* allows horizontal scroll on very small screens */
 }
 
-.baseline-table{
+.baseline-table {
   table-layout: fixed;
   width: 100%;
 }
 
-.baseline-table .col-model{
+/* IMPORTANT: target the <col> elements directly */
+.baseline-table col.col-model {
   width: 55%;
 }
 
-.baseline-table .col-metric{
+.baseline-table col.col-metric {
   width: 5.625%;
 }
 
-.baseline-table td:first-child{
+.baseline-table td:first-child {
   white-space: normal;
-  overflow-wrap: break-word;
+  word-break: break-word;
 }
 
-.baseline-table thead tr:nth-child(2) th{
+.baseline-table thead tr:nth-child(2) th {
   text-align: center;
 }
 
@@ -182,3 +185,4 @@ a {
   margin-top: 0.5rem;
   font-size: 0.9rem;
 }
+
