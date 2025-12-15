@@ -88,7 +88,6 @@ Official baselines follow the same ranking system as the <a href="https://huggin
       </tbody>
     </table>
   </div>
-</div>
 
   Note: Reproducible code will be announced soon.
 </div>
