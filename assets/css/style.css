@@ -162,16 +162,16 @@ a {
 }
 
 .baseline-table .col-model{
-  width: 40%;
+  width: 55%;
 }
 
 .baseline-table .col-metric{
-  width: 7.5%;
+  width: 5.625%;
 }
 
 .baseline-table td:first-child{
   white-space: normal;
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
 }
 
 .baseline-table thead tr:nth-child(2) th{
