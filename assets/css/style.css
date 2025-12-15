@@ -172,7 +172,7 @@ a {
 
 .baseline-table th:first-child,
 .baseline-table td:first-child {
-  width: 15%;           /* tweak this % until it looks right */
+  width: 9%;           /* tweak this % until it looks right */
   white-space: nowrap;  /* prevents the model id from wrapping */
   text-align: left;
 }
