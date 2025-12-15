@@ -152,8 +152,8 @@ a {
 }
 
 .table-wrapper {
-  width: 100%;
-  overflow-x: auto;   /* allows horizontal scroll on very small screens */
+  width: 100%;
+  overflow-x: auto;   /* allows horizontal scroll on very small screens */
 }
 
 .baseline-table {
@@ -161,83 +161,179 @@ a {
     width: 100%; 
     margin: 25px 0;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08); /* Added shadow for lift */
-    table-layout: fixed; /* Ensures column widths are respected */
+    box-shadow: 0 6px 16px rgba(19, 41, 75, 0.12);
+    border-radius: 8px;
+    overflow: hidden;
+    table-layout: fixed;
 }
 
 .baseline-table th, 
 .baseline-table td {
-    border: 1px solid #dee2e6; /* Light gray border lines */
-    padding: 0.5rem 0.6rem;
+    border: 1px solid #d1d5db;
+    padding: 0.6rem 0.5rem;
     text-align: center;
+    font-size: 0.9rem;
 }
 
-/* 1. Wider First Column (Model ID) - FIXED WIDTH */
+/* 1. First Column (Model ID) - Fixed Width */
 .baseline-table th:first-child,
 .baseline-table td:first-child {
-    width: 250px; /* Customizable fixed width */
+    width: 260px;
     text-align: left; 
-    padding-left: 12px;
+    padding-left: 14px;
     font-weight: 600;
+    background-color: #fafbfc;
+    border-right: 2px solid #13294B;
 }
 
-/* 2. Equal Width for Metric Columns */
-/* Apply a flexible width to all metric columns (the 8 data columns) */
+/* 2. Equal Width for ALL Metric Columns (8 data columns) */
 .baseline-table th:not(:first-child),
 .baseline-table td:not(:first-child) {
-    width: 9%; /* All 8 columns will share the remaining space equally */
-    white-space: nowrap; /* Prevent numbers from wrapping */
+    width: calc((100% - 260px) / 8);
+    min-width: 65px;
+    white-space: nowrap;
 }
 
-/* 3. Header Color Styling (UIUC Blue/Dark Theme) */
-
-/* TOP ROW (CER ↓, WER ↓) */
+/* 3. Header Styling - Row 1 (CER ↓, WER ↓) */
 .baseline-table thead tr:first-child th {
-    background-color: #13294B; /* UIUC Blue */
+    background-color: #13294B;
     color: white;
-    font-size: 1.1em;
+    font-size: 1.05em;
+    font-weight: 700;
+    border-bottom: 2px solid #E84A27;
+    letter-spacing: 0.02em;
 }
 
-/* MIDDLE ROW (Dev, Test1) */
+/* Vertical separator between CER and WER sections */
+.baseline-table thead tr:first-child th:nth-child(2) {
+    border-left: 2px solid #13294B;
+}
+.baseline-table thead tr:first-child th:nth-child(3) {
+    border-left: 3px solid #E84A27;
+}
+
+/* Header Row 2 (Dev, Test1) */
 .baseline-table thead tr:nth-child(2) th {
-    background-color: #1a3962; /* Slightly darker shade */
+    background-color: #1e3a5f;
     color: white;
-    font-weight: 500;
+    font-weight: 600;
+    font-size: 0.95em;
 }
 
-/* BOTTOM ROW (All, Shared, Unshared) */
+/* Header Row 3 (All, Shared, Unshared) */
 .baseline-table thead tr:nth-child(3) th {
-    background-color: #264e70; /* Another shade for definition */
+    background-color: #2d5a87;
+    color: #f0f4f8;
+    font-weight: 500;
+    font-size: 0.85em;
+}
+
+/* First column headers - distinct styling */
+.baseline-table thead tr th:first-child {
+    background-color: #0f1f35 !important;
     color: white;
-    font-weight: 400;
+    font-weight: 700;
 }
 
-/* 4. Alternating Row Colors */
-.baseline-table tbody tr:nth-child(even) {
-    background-color: #f8f9fa; /* Very light gray for even rows */
+/* CER section columns (columns 2-5) - subtle blue tint */
+.baseline-table tbody td:nth-child(2),
+.baseline-table tbody td:nth-child(3),
+.baseline-table tbody td:nth-child(4),
+.baseline-table tbody td:nth-child(5) {
+    background-color: #f8fafc;
 }
 
-.baseline-table tbody tr:hover {
-    background-color: #e9ecef; /* Subtle hover effect */
+/* WER section columns (columns 6-9) - subtle warm tint */
+.baseline-table tbody td:nth-child(6),
+.baseline-table tbody td:nth-child(7),
+.baseline-table tbody td:nth-child(8),
+.baseline-table tbody td:nth-child(9) {
+    background-color: #fffbf7;
+}
+
+/* Test1 columns - slightly highlighted */
+.baseline-table tbody td:nth-child(5),
+.baseline-table tbody td:nth-child(9) {
+    font-weight: 600;
+    background-color: #eef3f9;
+}
+.baseline-table tbody td:nth-child(9) {
+    background-color: #fff5eb;
+}
+
+/* Vertical separator between CER and WER in body */
+.baseline-table tbody td:nth-child(5) {
+    border-right: 3px solid #E84A27;
+}
+
+/* Vertical separator between Dev and Test1 */
+.baseline-table thead tr:nth-child(2) th:nth-child(2),
+.baseline-table thead tr:nth-child(2) th:nth-child(4) {
+    border-left: 2px solid rgba(255,255,255,0.3);
+}
+.baseline-table tbody td:nth-child(5),
+.baseline-table tbody td:nth-child(9) {
+    border-left: 2px solid #c7d2de;
+}
+
+/* Alternating row colors with section awareness */
+.baseline-table tbody tr:nth-child(even) td:nth-child(2),
+.baseline-table tbody tr:nth-child(even) td:nth-child(3),
+.baseline-table tbody tr:nth-child(even) td:nth-child(4),
+.baseline-table tbody tr:nth-child(even) td:nth-child(5) {
+    background-color: #edf2f7;
+}
+.baseline-table tbody tr:nth-child(even) td:nth-child(6),
+.baseline-table tbody tr:nth-child(even) td:nth-child(7),
+.baseline-table tbody tr:nth-child(even) td:nth-child(8),
+.baseline-table tbody tr:nth-child(even) td:nth-child(9) {
+    background-color: #fef7f0;
+}
+.baseline-table tbody tr:nth-child(even) td:first-child {
+    background-color: #f0f2f5;
+}
+.baseline-table tbody tr:nth-child(even) td:nth-child(5) {
+    background-color: #e3ebf3;
+}
+.baseline-table tbody tr:nth-child(even) td:nth-child(9) {
+    background-color: #feede0;
+}
+
+/* Hover effect */
+.baseline-table tbody tr:hover td {
+    background-color: #fef3e2 !important;
+    transition: background-color 0.15s ease;
 }
 
 /* Style for code links in the first column */
+.baseline-table td code {
+    background: transparent;
+    padding: 0;
+    font-size: 0.85em;
+}
 .baseline-table td code a {
-    color: #13294B; /* Keep links visible against light background */
+    color: #13294B;
     text-decoration: none;
+    font-weight: 500;
 }
 .baseline-table td code a:hover {
-    color: #E84A27; /* UIUC Orange on hover */
+    color: #E84A27;
     text-decoration: underline;
 }
 
-/* Note style (Assuming you have a tfoot for the note) */
-.baseline-block:last-child {
-    font-size: 0.95rem;
-    font-style: italic;
-    margin-top: 15px;
-    color: #6c757d;
+/* Bottom row rounded corners */
+.baseline-table tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 8px;
+}
+.baseline-table tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 8px;
 }
 
-.baseline-legend {
-/* ... [Keep the rest of the file unchanged] ... */
+/* Note style */
+.baseline-block p,
+.baseline-block:last-child {
+    font-size: 0.92rem;
+    font-style: italic;
+    margin-top: 12px;
+    color: #6c757d;
+}
