@@ -176,8 +176,15 @@ a {
 }
 
 /* 1. First Column (Model ID) - Fixed Width */
-.baseline-table th:first-child,
-.baseline-table td:first-child {
+/* Only target the actual first column cells, not first-child in merged rows */
+.baseline-table thead tr:first-child th:first-child {
+    width: 260px;
+    text-align: left; 
+    padding-left: 14px;
+    font-weight: 600;
+    border-right: 2px solid #13294B;
+}
+.baseline-table tbody td:first-child {
     width: 260px;
     text-align: left; 
     padding-left: 14px;
@@ -228,11 +235,12 @@ a {
     font-size: 0.85em;
 }
 
-/* First column headers - distinct styling */
-.baseline-table thead tr th:first-child {
+/* First column header (Model ID) - distinct styling */
+.baseline-table thead tr:first-child th:first-child {
     background-color: #0f1f35 !important;
     color: white;
     font-weight: 700;
+    text-align: left;
 }
 
 /* CER section columns (columns 2-5) - subtle blue tint */

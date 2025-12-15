@@ -18,7 +18,7 @@ Official baselines follow the same ranking system as the <a href="https://huggin
     <table class="baseline-table">
       <thead>
         <tr>
-          <th rowspan="2">Model ID</th>
+          <th rowspan="3">Model ID</th>
           <th colspan="4">CER ↓</th>
           <th colspan="4">WER ↓</th>
         </tr>
