@@ -32,24 +32,24 @@ Official baselines follow the same ranking system as the <a href="https://huggin
       <tbody>
         <tr>
           <td><code><a href="https://huggingface.co/nvidia/canary-qwen-2.5b">nvidia/canary-qwen-2.5b</a></code></td>
-          <td>14.53</td>
-          <td>18.02</td>
-          <td>21.11</td>
-          <td>25.04</td>
+          <td>14.38</td>
+          <td>17.93</td>
+          <td>20.25</td>
+          <td>24.54</td>
         </tr>
         <tr>
           <td><code><a href="https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2">nvidia/parakeet-tdt-0.6b-v2</a></code></td>
-          <td>13.63</td>
-          <td>16.18</td>
-          <td>20.83</td>
-          <td>23.40</td>
+          <td>13.43</td>
+          <td>16.07</td>
+          <td>19.59</td>
+          <td>22.83</td>
         </tr>
         <tr>
           <td><code><a href="https://huggingface.co/openai/whisper-large-v2">openai/whisper-large-v2</a></code></td>
-          <td>13.43</td>
-          <td>15.29</td>
-          <td>19.54</td>
-          <td>21.96</td>
+          <td>13.27</td>
+          <td>15.19</td>
+          <td>18.70</td>
+          <td>21.46</td>
         </tr>
       </tbody>
     </table>
