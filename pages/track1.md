@@ -12,12 +12,13 @@ permalink: /track1/
 Official baselines follow the same ranking system as the <a href="https://huggingface.co/spaces/hf-audio/open_asr_leaderboard">HuggingFace Open ASR Leaderboard</a>.
 <!-- Official baselines and reproducible code are available at
 <a href="YOUR_BASELINES_REPO_URL" target="_blank" rel="noopener">this repository</a>. -->
+
 <div class="baseline-block">
   <div class="table-wrapper">
     <table class="baseline-table">
       <thead>
         <tr>
-          <th rowspan="3">Model ID</th>
+          <th rowspan="2">Model ID</th>
           <th colspan="4">CER ↓</th>
           <th colspan="4">WER ↓</th>
         </tr>
