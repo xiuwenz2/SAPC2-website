@@ -21,6 +21,7 @@ Official baselines follow the same ranking system as the <a href="https://huggin
           <th rowspan="3">Model ID</th>
           <th colspan="4">CER ↓</th>
           <th colspan="4">WER ↓</th>
+          <th rowspan="3">Duration</th>
         </tr>
         <tr>
           <th colspan="3">Dev</th>
@@ -49,7 +50,7 @@ Official baselines follow the same ranking system as the <a href="https://huggin
           <td>22.60</td>
           <td>18.89</td>
           <td>24.54</td>
-        </tr>
+          <td>-</td> </tr>
 
         <tr>
           <td><code><a href="https://huggingface.co/nvidia/parakeet-tdt-0.6b-v2">nvidia/parakeet-tdt-0.6b-v2</a></code></td>
@@ -61,7 +62,7 @@ Official baselines follow the same ranking system as the <a href="https://huggin
           <td>24.04</td>
           <td>17.00</td>
           <td>22.83</td>
-        </tr>
+          <td>-</td> </tr>
 
         <tr>
           <td><code><a href="https://huggingface.co/openai/whisper-large-v2">openai/whisper-large-v2</a></code></td>
@@ -73,7 +74,7 @@ Official baselines follow the same ranking system as the <a href="https://huggin
           <td>22.87</td>
           <td>16.27</td>
           <td>21.46</td>
-        </tr>
+          <td>-</td> </tr>
         
         <tr>
           <td><code><a href="https://huggingface.co/xiuwenz2/whisper-large-v2-ft-SAP-0430-pd-merged-ct2">xiuwenz2/whisper-large-v2-ft-SAP-0430-pd-merged-ct2</a></code></td>
@@ -85,10 +86,11 @@ Official baselines follow the same ranking system as the <a href="https://huggin
           <td>12.12</td>
           <td>13.58</td>
           <td>19.05</td>
-        </tr>
+          <td>-</td> </tr>
       </tbody>
     </table>
   </div>
+</div>
 
   Note: Reproducible code will be announced soon.
 </div>
