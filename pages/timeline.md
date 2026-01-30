@@ -40,14 +40,14 @@ permalink: /timeline/
   <div class="news-item">
     <div class="news-date">2025-04-24</div>
     <div class="news-text">
-      ICML workshop paper <strong>submission suggested deadline</strong> (tentative, pending approval)
+      <strong>Suggested Submission Date for ICML Workshop Contributions</strong> (tentative, pending approval)
     </div>
   </div>
 
   <div class="news-item">
     <div class="news-date">2025-05-15</div>
     <div class="news-text">
-      ICML workshop paper <strong>Universal notification deadline for all submissions to individual ICML workshops</strong>
+      <strong>Universal notification deadline for all submissions to individual ICML workshops</strong>
     </div>
   </div>
 
