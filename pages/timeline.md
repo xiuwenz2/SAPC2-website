@@ -47,7 +47,7 @@ permalink: /timeline/
   <div class="news-item">
     <div class="news-date">2025-05-15</div>
     <div class="news-text">
-      ICML workshop paper <strong>submission hard deadline</strong> (tentative, pending approval)
+      ICML workshop paper <strong>Universal notification deadline for all submissions to individual ICML workshops</strong>
     </div>
   </div>
 
