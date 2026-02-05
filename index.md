@@ -57,17 +57,25 @@ SAPC2 builds on the success of the Interspeech 2025 Speech Accessibility Project
 ## <a id="call"></a>Challenge Tracks
 The challenge features two complementary tracks:
 1. **Unconstrained ASR Track**: Participants may use models of any size or architecture, aiming to advance the state of the art in dysarthric speech recognition.
-2. **Efficiency-Constrained ASR Track**: Submitted systems must meet strict limits on model size and inference time, promoting lightweight and deployable solutions for real-world use.
+2. **Efficiency-Constrained/Streaming ASR Track**: Submitted systems will be placed on a Pareto chart of system latency and system accuracy, promoting lightweight and deployable solutions for real-world use.
 
 ## <a id="call"></a>Evaluation Metrics
-We evaluate system performance using transcripts normalized with a fully-formatted normalizer adapted from the HuggingFace ASR leaderboard. Two metrics are used to assess transcription accuracy:
+We evaluate system accuracy using transcripts normalized with a fully-formatted normalizer adapted from the HuggingFace ASR leaderboard. Two metrics are used to assess transcription accuracy:
 - **Character Error Rate** (CER): Primary metric, chosen for its better correlation with human judgments and for its sensitivity to pronunciation variations in dysarthric speech.
 - **Word Error Rate** (WER): Secondary metric, reported for comparison with prior work and related literature.
 
 Both metrics are clipped to 100% at the utterance level. Scores are computed using two references (with/without disfluencies) and the lower error is selected per utterance.
 
+System latency of streaming ASRs will be computed on CPU. Latency will be the fusion of two or more measures including time to first token and time to last token. Non-streaming ASR will be assigned a latency of infinity. 
+
 ## <a id="call"></a>Prizes
-To be announced soon!
+A total prize of U.S. $10,000 will be divided equally among all teams with a system on the Pareto frontier of accuracy and latency, as measured using the sequestered test2 set. Exactly one non-streaming ASR will win, and at least one streaming ASR will win.
+
+## <a id="call"></a>Scoring
+Competitors will submit trained model parameters and inference code though Codabench up to a maximum number of permitted submissions. Results on test1 will be released within three days of submission. Results on test2 will be released after the close of competition.
+
+## <a id="call"></a>Publication
+Teams submitting to the competition will be invited to present at a competition workshop, scheduled coincident with a major conference TBA.
 
 ## References
 - [1] Hasegawa-Johnson, M., et al. *Community-supported shared infrastructure in support of speech accessibility.* JSLHR, 67(11), 4162–4175, 2024.
