@@ -19,7 +19,6 @@ hero_meta: >
 <div class="news-item">
   <div class="news-date">2026-02-08</div>
   <div class="news-text">
-    <strong><span style="color: #E84A27;"><a href="https://github.com/xiuwenz2/SAPC-template">SAPC-template</a></span></strong> updated: preprocessing, Track 1 starter kit, and evaluation.
   </div>
 </div>
 
