@@ -16,11 +16,14 @@ We report one official baseline on Test1 with both accuracy and latency metrics.
     <table class="baseline-table">
       <thead>
         <tr>
-          <th>Model ID</th>
-          <th>Test1 CER</th>
-          <th>Test1 WER</th>
-          <th>Test1 TTFT P50 (ms)</th>
-          <th>Test1 TTLT P50 (ms)</th>
+          <th rowspan="2">Model ID</th>
+          <th colspan="4">Test1</th>
+        </tr>
+        <tr>
+          <th>CER ↓</th>
+          <th>WER ↓</th>
+          <th>TTFT P50 (ms) ↓</th>
+          <th>TTLT P50 (ms) ↓</th>
         </tr>
       </thead>
       <tbody>
