@@ -15,7 +15,7 @@ hero_meta: >
 <div class="news-item">
   <div class="news-date">2026-02-27</div>
   <div class="news-text">
-  <strong><span style="color: #E84A27;">Challenge API: </span></strong>The Codabench API for (<a href="https://www.codabench.org/competitions/14176">Track 1</a>; <a href="https://www.codabench.org/competitions/14177">Track 2</a>) has been released.
+  <strong><span style="color: #E84A27;">Competition Pages & Leaderboards: </span></strong>The Codabench API for (<a href="https://www.codabench.org/competitions/14176">Track 1</a>; <a href="https://www.codabench.org/competitions/14177">Track 2</a>) has been released.
   </div>
 </div>
 
@@ -83,7 +83,7 @@ Competitors will submit trained model parameters and inference code through Coda
   - **Time To First Token (TTFT, P50, ms):** `first_non_empty_partial_time - (audio_send_start_time + mfa_speech_start)`.
   - **Time To Last Token (TTLT, P50, ms):** `final_visible_time - audio_end_oracle_time`, where `audio_end_oracle_time = audio_send_start_time + audio_duration_sec`.
   - For robustness analysis, P90 latency may also be reported in detailed outputs.
-  - For Pareto comparison, non-streaming ASR is assigned infinite latency.
+  - For Pareto comparison, we use the average of TTFT and TTLT as latency; non-streaming ASR is assigned infinity.
 
 ## <a id="call"></a>Prizes & Publication
 A total prize of U.S. $10,000 will be divided equally among all teams with a system on the Pareto frontier of accuracy and latency, as measured using the sequestered test2 set.
