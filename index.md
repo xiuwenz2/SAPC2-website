@@ -3,10 +3,6 @@ layout: default
 title: "Page"
 subtitle: "Workshop/Conference · YEAR"
 is_home: true
-cta_label: "Go to EvalAI"
-cta_url: "YOUR_EVALAI_URL"
-secondary_cta_label: "Read the Call"
-secondary_cta_url: "#call"
 hero_meta: >
   Use this short blurb to highlight the key story: the task, who it's for,
   and what people get out of participating (e.g. leaderboard, paper track, prizes).
@@ -17,19 +13,19 @@ hero_meta: >
 <div class="news-list">
 
 <div class="news-item">
-  <div class="news-date">2026-02-08</div>
+  <div class="news-date">2026-02-27</div>
   <div class="news-text">
-  <strong><span style="color: #E84A27;">SAPC-template (https://github.com/xiuwenz2/SAPC-template)</span></strong> updated: preprocessing, Track 1 starter kit, and evaluation.
+  <strong><span style="color: #E84A27;">Starter Template:</span></strong>To help you begin, SAPC-template (https://github.com/xiuwenz2/SAPC-template) is now available.
   </div>
 </div>
 
 <div class="news-item">
     <div class="news-date">2025-12-03</div>
     <div class="news-text">
-      Request the SAP corpus via the official website
-      (<a href="https://speechaccessibilityproject.beckman.illinois.edu/conduct-research-through-the-project">link</a>), by
-      submitting the DUA
-      (<a href="https://speechaccessibilityproject.beckman.illinois.edu/docs/librariesprovider8/default-document-library/data-transfer-and-use-agreement-speech-accessibility-project.pdf?sfvrsn=909bd90f_20">link</a>)
+      <strong><span style="color: #E84A27;">SAP Data:</span></strong>Request the SAP corpus via
+      (<a href="https://speechaccessibilityproject.beckman.illinois.edu/conduct-research-through-the-project">the official website</a>), by
+      submitting the
+      (<a href="https://speechaccessibilityproject.beckman.illinois.edu/docs/librariesprovider8/default-document-library/data-transfer-and-use-agreement-speech-accessibility-project.pdf?sfvrsn=909bd90f_20">DUA</a>)
       and a one-page proposal to <a href="mailto:speechaccessibility@beckman.illinois.edu">email</a>.<br>
       <em>Note: <strong><span style="color: #E84A27;">Approval typically takes ~2–4 weeks.</span></strong> Upon approval, access will be immediately granted
       to the SAP Research Release, which contains most of the same waveforms that will be part of
@@ -42,7 +38,7 @@ hero_meta: >
 <div class="news-item">
   <div class="news-date">2025-12-03</div>
   <div class="news-text">
-    Team <strong><span style="color: #E84A27;">registration is now open</span></strong> through <a href="https://forms.gle/bajUuCF6xZYbVq2A9">link</a>.
+    <strong><span style="color: #E84A27;">Registration:</span></strong> Team registration is now open through <a href="https://forms.gle/bajUuCF6xZYbVq2A9">link</a>.
   </div>
 </div>
 
@@ -63,7 +59,9 @@ SAPC2 builds on the success of the Interspeech 2025 Speech Accessibility Project
 ## <a id="call"></a>Challenge Tracks
 The challenge features two complementary tracks:
 1. **Unconstrained ASR Track**: Participants may use models of any size or architecture, aiming to advance the state of the art in dysarthric speech recognition.
-2. **Efficiency-Constrained/Streaming ASR Track**: Submitted systems will be placed on a Pareto chart of system latency and system accuracy, promoting lightweight and deployable solutions for real-world use.
+2. **Streaming ASR Track**: Submitted systems will be placed on a Pareto chart of system latency and system accuracy, promoting lightweight and deployable solutions for real-world use.
+
+Competitors will submit trained model parameters and inference code through <strong><span style="color: #E84A27;">Codabench</span></strong> (<a href="https://www.codabench.org/competitions/14176">Track 1</a> | <a href="https://www.codabench.org/competitions/14177">Track 2</a>) up to a maximum number of permitted submissions. Results on test1 will be released within three days of submission. Results on test2 will be released after the close of competition.
 
 ## <a id="call"></a>Evaluation Metrics
 We evaluate system accuracy using transcripts normalized with a fully-formatted normalizer adapted from the HuggingFace ASR leaderboard. Two metrics are used to assess transcription accuracy:
@@ -74,14 +72,15 @@ Both metrics are clipped to 100% at the utterance level. Scores are computed usi
 
 System latency of streaming ASRs will be computed on CPU. Latency will be the fusion of two or more measures including time to first token and time to last token. Non-streaming ASR will be assigned a latency of infinity. 
 
-## <a id="call"></a>Prizes
-A total prize of U.S. $10,000 will be divided equally among all teams with a system on the Pareto frontier of accuracy and latency, as measured using the sequestered test2 set. Exactly one non-streaming ASR will win, and at least one streaming ASR will win.
+## <a id="call"></a>Prizes & Publication
+A total prize of U.S. $10,000 will be divided equally among all teams with a system on the Pareto frontier of accuracy and latency, as measured using the sequestered test2 set.
 
-## <a id="call"></a>Scoring
-Competitors will submit trained model parameters and inference code though Codabench up to a maximum number of permitted submissions. Results on test1 will be released within three days of submission. Results on test2 will be released after the close of competition.
+To clarify how winners are selected across tracks:
 
-## <a id="call"></a>Publication
-Teams submitting to the competition will be invited to present at a competition workshop, scheduled coincident with a major conference TBA.
+- **Track 1 (Unconstrained ASR):** submissions are non-streaming systems and are ranked by recognition accuracy. For Pareto comparison, Track 1 latency is set to **inf**. Exactly **one non-streaming ASR** system will win.
+- **Track 2 (Streaming ASR):** submissions are ranked by the competition's accuracy-latency criteria, and **one or more** streaming systems may win.
+
+Teams submitting to the competition will be invited to present their work at a competition workshop, scheduled in conjunction with a major conference (TBA).
 
 ## References
 - [1] Hasegawa-Johnson, M., et al. *Community-supported shared infrastructure in support of speech accessibility.* JSLHR, 67(11), 4162–4175, 2024.
@@ -97,4 +96,4 @@ Teams submitting to the competition will be invited to present at a competition 
 - [11] Thennal, D.K., et al. *Advocating Character Error Rate for Multilingual ASR Evaluation.* Findings of ACL: NAACL 2025.
 
 ## <a id="call"></a>Acknowledgements
-The Speech Accessibility Project is funded by a grant from the AI Accessibility Coalition. Computational resources for the challenge are provided by the National Center for Supercomputing Applications.
+The Speech Accessibility Project is funded by a grant from the AI Accessibility Coalition. Computational resources for the challenge are provided by the National Center for Supercomputing Applications (NCSA). We would also like to thank Rob Kooper (NCSA), Wei Kang (Xiaomi Corp.), and Maisy Wieman (SoundHound AI) for their expertise and invaluable assistance in setting up the challenge.
