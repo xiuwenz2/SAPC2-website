@@ -15,14 +15,14 @@ hero_meta: >
 <div class="news-item">
   <div class="news-date">2026-02-27</div>
   <div class="news-text">
-  <strong><span style="color: #E84A27;">Starter Template:</span></strong>To help you begin, SAPC-template (https://github.com/xiuwenz2/SAPC-template) is now available.
+  <strong><span style="color: #E84A27;">Starter Template: </span></strong>To help you begin, SAPC-template (https://github.com/xiuwenz2/SAPC-template) is now available.
   </div>
 </div>
 
 <div class="news-item">
     <div class="news-date">2025-12-03</div>
     <div class="news-text">
-      <strong><span style="color: #E84A27;">SAP Data:</span></strong>Request the SAP corpus via
+      <strong><span style="color: #E84A27;">SAP Data: </span></strong>Request the SAP corpus via
       (<a href="https://speechaccessibilityproject.beckman.illinois.edu/conduct-research-through-the-project">the official website</a>), by
       submitting the
       (<a href="https://speechaccessibilityproject.beckman.illinois.edu/docs/librariesprovider8/default-document-library/data-transfer-and-use-agreement-speech-accessibility-project.pdf?sfvrsn=909bd90f_20">DUA</a>)
@@ -61,16 +61,27 @@ The challenge features two complementary tracks:
 1. **Unconstrained ASR Track**: Participants may use models of any size or architecture, aiming to advance the state of the art in dysarthric speech recognition.
 2. **Streaming ASR Track**: Submitted systems will be placed on a Pareto chart of system latency and system accuracy, promoting lightweight and deployable solutions for real-world use.
 
-Competitors will submit trained model parameters and inference code through <strong><span style="color: #E84A27;">Codabench</span></strong> (<a href="https://www.codabench.org/competitions/14176">Track 1</a> | <a href="https://www.codabench.org/competitions/14177">Track 2</a>) up to a maximum number of permitted submissions. Results on test1 will be released within three days of submission. Results on test2 will be released after the close of competition.
+Competitors will submit trained model parameters and inference code through <strong><span style="color: #E84A27;">Codabench</span></strong> (<a href="https://www.codabench.org/competitions/14176">Track 1</a>; <a href="https://www.codabench.org/competitions/14177">Track 2</a>) up to a maximum number of permitted submissions. Results on test1 will be released within three days of submission. Results on test2 will be released after the close of competition.
 
 ## <a id="call"></a>Evaluation Metrics
-We evaluate system accuracy using transcripts normalized with a fully-formatted normalizer adapted from the HuggingFace ASR leaderboard. Two metrics are used to assess transcription accuracy:
-- **Character Error Rate** (CER): Primary metric, chosen for its better correlation with human judgments and for its sensitivity to pronunciation variations in dysarthric speech.
-- **Word Error Rate** (WER): Secondary metric, reported for comparison with prior work and related literature.
+### Accuracy Metrics
+Accuracy transcripts are normalized with a fully formatted normalizer adapted from the HuggingFace ASR leaderboard.
 
-Both metrics are clipped to 100% at the utterance level. Scores are computed using two references (with/without disfluencies) and the lower error is selected per utterance.
+- **Character Error Rate (CER):** Primary metric, chosen for its better correlation with human judgments and its sensitivity to pronunciation variations in dysarthric speech.
+- **Word Error Rate (WER):** Secondary metric, reported for comparison with prior work and related literature.
 
-System latency of streaming ASRs will be computed on CPU. Latency will be the fusion of two or more measures including time to first token and time to last token. Non-streaming ASR will be assigned a latency of infinity. 
+CER/WER are clipped to **100%** at the utterance level. Accuracy scores are computed using two references (with and without disfluencies), and the lower error is selected per utterance.
+
+### Latency Metrics (Track 2 only)
+Latency is computed from streaming partial results on the streaming manifest (`*_streaming.csv`) and reported as median (**P50**, in ms). Reference implementation:
+[`compute_latency.py`](https://github.com/xiuwenz2/SAPC-template/blob/main/utils/compute_latency.py).
+
+- **Time To First Token (TTFT, P50, ms):**  
+  `first_non_empty_partial_time - (audio_send_start_time + mfa_speech_start)`
+- **Time To Last Token (TTLT, P50, ms):**  
+  `final_visible_time - audio_end_oracle_time`, where `audio_end_oracle_time = audio_send_start_time + audio_duration_sec`
+
+For robustness analysis, P90 latency is also be reported in detailed outputs. Non-streaming ASR is assigned infinite latency for Pareto comparison.
 
 ## <a id="call"></a>Prizes & Publication
 A total prize of U.S. $10,000 will be divided equally among all teams with a system on the Pareto frontier of accuracy and latency, as measured using the sequestered test2 set.
