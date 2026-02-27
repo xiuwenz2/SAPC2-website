@@ -89,5 +89,7 @@ Official baselines follow the same ranking system as the <a href="https://huggin
     </table>
   </div>
 
+  <p class="baseline-note">Note: The baseline results shown here may differ slightly from Codabench Leaderboard due to evaluation-environment differences.</p>
+
 </div>
 
