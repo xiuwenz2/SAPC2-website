@@ -29,7 +29,7 @@ hero_meta: >
 <div class="news-item">
     <div class="news-date">2025-12-03</div>
     <div class="news-text">
-      <strong><span style="color: #E84A27;">SAP Data: </span></strong>Request the SAP corpus via
+      <strong><span style="color: #E84A27;">Data Access: </span></strong>Request the SAP corpus via
       (<a href="https://speechaccessibilityproject.beckman.illinois.edu/conduct-research-through-the-project">the official website</a>), by
       submitting the
       (<a href="https://speechaccessibilityproject.beckman.illinois.edu/docs/librariesprovider8/default-document-library/data-transfer-and-use-agreement-speech-accessibility-project.pdf?sfvrsn=909bd90f_20">DUA</a>)
@@ -45,7 +45,7 @@ hero_meta: >
 <div class="news-item">
   <div class="news-date">2025-12-03</div>
   <div class="news-text">
-    <strong><span style="color: #E84A27;">Registration:</span></strong> Team registration is now open through <a href="https://forms.gle/bajUuCF6xZYbVq2A9">link</a>.
+    <strong><span style="color: #E84A27;">Team Registration:</span></strong> Team registration is now open through <a href="https://forms.gle/bajUuCF6xZYbVq2A9">link</a>.
   </div>
 </div>
 
