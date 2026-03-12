@@ -15,6 +15,18 @@ hero_meta: >
 <div class="news-item">
   <div class="news-date">2026-03-12</div>
   <div class="news-text">
+    <strong><span style="color: #E84A27;">SAPC-template Update: </span></strong>
+    <strong>Local decoding</strong> is now supported for both tracks 
+    (<a href="https://github.com/xiuwenz2/SAPC-template/tree/main/track1_starting_kit#local-dev-test-with-dev-set">Track 1</a>, 
+    <a href="https://github.com/xiuwenz2/SAPC-template/tree/main/track2_starting_kit#local-dev-test-with-dev-set">Track 2</a>). 
+    The <code>Dev_streaming</code> subset for latency measurement is now available in the shared Box folder, and the corresponding code has been added to 
+    <a href="https://github.com/xiuwenz2/SAPC-template/blob/aac08c079ed610e3f83bc2d8d72dc42c94d81d33/preprocess.sh#L94">preprocess.sh</a>.
+  </div>
+</div>
+
+<div class="news-item">
+  <div class="news-date">2026-03-12</div>
+  <div class="news-text">
   <strong><span style="color: #E84A27;">Update: </span></strong>
   The <code>Dev_streaming</code> subset for latency measurement is now available in the shared Box folder, and the corresponding code has been added to <a href="https://github.com/xiuwenz2/SAPC-template/blob/aac08c079ed610e3f83bc2d8d72dc42c94d81d33/preprocess.sh#L94">SAPC-template</a>.
   </div>
