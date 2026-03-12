@@ -16,8 +16,7 @@ hero_meta: >
   <div class="news-date">2026-03-12</div>
   <div class="news-text">
   <strong><span style="color: #E84A27;">Update: </span></strong>
-  The <code>Dev_streaming</code> subset has been added to the shared Box folder. 
-  With the corresponding code added to <a href="https://github.com/xiuwenz2/SAPC-template/blob/aac08c079ed610e3f83bc2d8d72dc42c94d81d33/preprocess.sh#L94">SAPC-template</a>.
+  The <code>Dev_streaming</code> subset for latency measurement is now available in the shared Box folder, and the corresponding code has been added to <a href="https://github.com/xiuwenz2/SAPC-template/blob/aac08c079ed610e3f83bc2d8d72dc42c94d81d33/preprocess.sh#L94">SAPC-template</a>.
   </div>
 </div>
 
