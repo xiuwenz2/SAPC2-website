@@ -17,7 +17,7 @@ hero_meta: >
   <div class="news-text">
     <strong><span style="color: #E84A27;">Starter Template Update: </span></strong>
     <strong>Local decoding script</strong> is now available for both tracks 
-    (<a href="https://github.com/xiuwenz2/SAPC-template/tree/main/track1_starting_kit#local-dev-test-with-dev-set">Track 1</a>, 
+    (<a href="https://github.com/xiuwenz2/SAPC-template/tree/main/track1_starting_kit#local-dev-test-with-dev-set">Track 1</a>; 
     <a href="https://github.com/xiuwenz2/SAPC-template/tree/main/track2_starting_kit#local-dev-test-with-dev-set">Track 2</a>). 
     In addition, the <code>Dev_streaming</code> subset for latency measurement is shared through Box, and the corresponding code has been added to 
     <a href="https://github.com/xiuwenz2/SAPC-template/blob/aac08c079ed610e3f83bc2d8d72dc42c94d81d33/preprocess.sh#L94">preprocess.sh</a>.
