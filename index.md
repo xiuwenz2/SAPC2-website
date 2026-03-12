@@ -13,6 +13,15 @@ hero_meta: >
 <div class="news-list">
 
 <div class="news-item">
+  <div class="news-date">2026-03-12</div>
+  <div class="news-text">
+  <strong><span style="color: #E84A27;">Update: </span></strong>
+  The <code>Dev_streaming</code> subset has been added to the shared Box folder. 
+  With the corresponding code added to <a href="https://github.com/xiuwenz2/SAPC-template/blob/aac08c079ed610e3f83bc2d8d72dc42c94d81d33/preprocess.sh#L94">SAPC-template</a>.
+  </div>
+</div>
+
+<div class="news-item">
   <div class="news-date">2026-02-27</div>
   <div class="news-text">
   <strong><span style="color: #E84A27;">Competition Pages & Leaderboards: </span></strong>The Codabench API for (<a href="https://www.codabench.org/competitions/14176">Track 1</a>; <a href="https://www.codabench.org/competitions/14177">Track 2</a>) has been released.
