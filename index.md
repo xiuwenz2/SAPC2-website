@@ -13,6 +13,16 @@ hero_meta: >
 <div class="news-list">
 
 <div class="news-item">
+  <div class="news-date">2026-03-18</div>
+  <div class="news-text">
+    <strong><span style="color: #E84A27;">Update: Inference Time Limit (Track 1)</span></strong><br>
+    The Ingestion time limit per submission has been increased: 
+    <s style="color: #888;">15000s</s> → 
+    <strong style="color: #2e7d32;">21600s</strong>
+  </div>
+</div>
+
+<div class="news-item">
   <div class="news-date">2026-03-12</div>
   <div class="news-text">
     <strong><span style="color: #E84A27;">Starter Template Update: </span></strong>
