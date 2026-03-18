@@ -18,7 +18,7 @@ hero_meta: >
     <strong><span style="color: #E84A27;">Update: Inference Time Limit (Track 1)</span></strong><br>
     The Ingestion time limit per submission has been increased: 
     <s style="color: #888;">15000s</s> → 
-    <strong style="color: #2e7d32;">21600s</strong>
+    <strong>21600s</strong>
   </div>
 </div>
 
