@@ -31,23 +31,16 @@ permalink: /timeline/
   </div>
 
   <div class="news-item">
-    <div class="news-date">2026-04-30</div>
+    <div class="news-date">2026-08-31</div>
     <div class="news-text">
       <strong><span style="color: #E84A27;">Leaderboard closes</span></strong> for system submission and benchmarking.
     </div>
   </div>
 
   <div class="news-item">
-    <div class="news-date">2025-04-24</div>
+    <div class="news-date">TO BE ANNOUNCED</div>
     <div class="news-text">
-      <strong><span style="color: #E84A27;">Suggested Submission Date for ICML Workshop Contributions</span></strong> (tentative, pending approval)
-    </div>
-  </div>
-
-  <div class="news-item">
-    <div class="news-date">2025-05-15</div>
-    <div class="news-text">
-      <strong><span style="color: #E84A27;">Universal notification deadline for all submissions to individual ICML workshops</span></strong>
+      <strong><span style="color: #E84A27;">Suggested Submission Date & Universal Notification Deadline for Workshop Contributions</span></strong>
     </div>
   </div>
 
