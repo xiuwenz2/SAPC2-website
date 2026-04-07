@@ -13,6 +13,19 @@ hero_meta: >
 <div class="news-list">
 
 <div class="news-item">
+  <div class="news-date">2026-04-07</div>
+  <div class="news-text">
+    <strong><span style="color: #E84A27;">Update: SAPC2 Deadline Extension</span></strong><br>
+    The submission deadline has been extended: 
+    <s style="color: #888;">End of April 2026</s> → 
+    <strong>August 31, 2026</strong><br><br>
+    This extension aims to accommodate ongoing submissions, particularly for Track 2, 
+    and teams with pending Data Use Agreements (DUAs). 
+    We hope this provides additional time for participation and preparation.
+  </div>
+</div>
+
+<div class="news-item">
   <div class="news-date">2026-03-18</div>
   <div class="news-text">
     <strong><span style="color: #E84A27;">Update: Inference Time Limit (Track 1)</span></strong><br>
