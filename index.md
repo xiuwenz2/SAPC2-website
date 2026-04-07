@@ -18,7 +18,7 @@ hero_meta: >
     <strong><span style="color: #E84A27;">Update: SAPC2 Deadline Extension</span></strong><br>
     The submission deadline has been extended: 
     <s style="color: #888;">End of April 2026</s> → 
-    <strong>August 31, 2026</strong><br><br>
+    <strong>August 31, 2026</strong><br>
     This extension aims to accommodate ongoing submissions, particularly for Track 2, 
     and teams with pending Data Use Agreements (DUAs). 
     We hope this provides additional time for participation and preparation.
