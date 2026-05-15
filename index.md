@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Page"
-subtitle: "Workshop/Conference · YEAR"
+subtitle: 'Workshop/Conference · YEAR<br><a href="mailto:sapchallenge@lists.illinois.edu">sapchallenge@lists.illinois.edu</a>'
 is_home: true
 hero_meta: >
   Use this short blurb to highlight the key story: the task, who it's for,
