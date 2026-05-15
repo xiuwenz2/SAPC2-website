@@ -9,7 +9,7 @@ hero_meta: >
 ---
 
 <p class="contact">
-  Contact: <a href="mailto:sapchallenge@lists.illinois.edu">sapchallenge@lists.illinois.edu</a>
+  **Contact: <a href="mailto:sapchallenge@lists.illinois.edu">sapchallenge@lists.illinois.edu</a>**
 </p>
 
 ## News
