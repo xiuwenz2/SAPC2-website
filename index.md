@@ -8,6 +8,10 @@ hero_meta: >
   and what people get out of participating (e.g. leaderboard, paper track, prizes).
 ---
 
+<p class="contact">
+  Contact: <a href="mailto:sapchallenge@lists.illinois.edu">sapchallenge@lists.illinois.edu</a>
+</p>
+
 ## News
 
 <div class="news-list">
