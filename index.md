@@ -1,11 +1,10 @@
 ---
 layout: default
-title: "Page"
-subtitle: 'Workshop/Conference · YEAR<br><a href="mailto:sapchallenge@lists.illinois.edu">sapchallenge@lists.illinois.edu</a>'
+title: "Speech Accessibility Project Challenge 2"
+subtitle: 'NeurIPS 2026 Competition Track · Sydney, Australia<br><a href="mailto:sapchallenge@lists.illinois.edu">sapchallenge@lists.illinois.edu</a>'
 is_home: true
 hero_meta: >
-  Use this short blurb to highlight the key story: the task, who it's for,
-  and what people get out of participating (e.g. leaderboard, paper track, prizes).
+  Advancing accessible speech recognition through unconstrained and streaming ASR, with $10,000 in prizes and a competition workshop at NeurIPS 2026.
 ---
 
 <p class="contact">
@@ -15,6 +14,21 @@ hero_meta: >
 ## News
 
 <div class="news-list">
+
+<div class="news-item">
+  <div class="news-date">2026-08-05</div>
+  <div class="news-text">
+    <strong><span style="color: #E84A27;">SAPC2 Accepted to the NeurIPS 2026 Competition Track</span></strong><br>
+    We are excited to announce that the Speech Accessibility Project Challenge 2 (SAPC2)
+    has been accepted to the <strong>NeurIPS 2026 Competition Track</strong>!<br>
+    SAPC2 is one of 16 competitions selected for NeurIPS 2026 and will conclude with
+    a competition workshop in Sydney, Australia.<br>
+    <a href="https://speechaccessibilityproject.beckman.illinois.edu/article/2026/08/05/speech-accessibility-project-selected-to-neural-information-processing-systems-competition"
+       target="_blank" rel="noopener noreferrer">
+      Read the official Speech Accessibility Project announcement.
+    </a>
+  </div>
+</div>
 
 <div class="news-item">
   <div class="news-date">2026-04-07</div>
@@ -132,7 +146,7 @@ To clarify how winners are selected across tracks:
 - **Track 1 (Unconstrained ASR):** submissions are non-streaming systems and are ranked by recognition accuracy. For Pareto comparison, Track 1 latency is set to **inf**. Exactly **one non-streaming ASR** system will win.
 - **Track 2 (Streaming ASR):** submissions are ranked by the competition's accuracy-latency criteria, and **one or more** streaming systems may win.
 
-Teams submitting to the competition will be invited to present their work at a competition workshop, scheduled in conjunction with a major conference (TBA).
+Teams submitting to the competition will be invited to present their work at the **SAPC2 competition workshop at NeurIPS 2026 in Sydney, Australia**. NeurIPS 2026 Workshops & Competitions will take place on **December 11–12, 2026**; the exact SAPC2 session date and time will be announced later.
 
 ## References
 - [1] Hasegawa-Johnson, M., et al. *Community-supported shared infrastructure in support of speech accessibility.* JSLHR, 67(11), 4162–4175, 2024.
