@@ -16,6 +16,18 @@ hero_meta: >
 <div class="news-list">
 
 <div class="news-item">
+  <div class="news-date">2026-08-14</div>
+  <div class="news-text">
+    <strong><span style="color: #E84A27;">Update: SAPC2 Deadline Extension</span></strong><br>
+    SAPC2 has been accepted as a <strong>NeurIPS 2026 Challenge</strong>. 
+    The final competition deadline has been extended:
+    <s style="color: #888;">August 31, 2026</s> → 
+    <strong>October 24, 2026 (AoE)</strong>.<br>
+    Participating teams are invited to present at the SAPC2 workshop at NeurIPS 2026 in Sydney.
+  </div>
+</div>
+
+<div class="news-item">
   <div class="news-date">2026-08-05</div>
   <div class="news-text">
     <strong><span style="color: #E84A27;">SAPC2 Accepted to the NeurIPS 2026 Competition Track</span></strong><br>
