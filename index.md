@@ -16,6 +16,16 @@ hero_meta: >
 <div class="news-list">
 
 <div class="news-item">
+  <div class="news-date">2026-08-24</div>
+  <div class="news-text">
+    <strong><span style="color: #E84A27;">Update: Submission Limit Increased</span></strong><br>
+    Following the competition deadline extension, the total submission limit has been increased
+    from <strong>50 to 68 submissions</strong>, accounting for the additional submission allowance
+    of <strong>one submission every three days</strong>.
+  </div>
+</div>
+
+<div class="news-item">
   <div class="news-date">2026-08-14</div>
   <div class="news-text">
     <strong><span style="color: #E84A27;">Update: SAPC2 Deadline Extension</span></strong><br>
