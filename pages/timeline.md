@@ -31,7 +31,7 @@ permalink: /timeline/
   </div>
 
   <div class="news-item">
-    <div class="news-date">2026-08-31</div>
+    <div class="news-date">2026-10-24</div>
     <div class="news-text">
       <strong><span style="color: #E84A27;">Leaderboard closes</span></strong> for system submission and benchmarking.
     </div>

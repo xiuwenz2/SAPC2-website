@@ -57,6 +57,16 @@ body {
   text-decoration: none;            /* no underline on nav hover */
 }
 
+/* News nav link: always orange, not just on hover */
+.site-nav a.nav-highlight {
+  color: #E84A27;
+  font-weight: 700;
+}
+
+.site-nav a.nav-highlight:hover {
+  color: #c73d1c;
+}
+
 /* ---------- Main content ---------- */
 
 .page-content {
