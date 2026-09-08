@@ -107,8 +107,8 @@ Teams submitting to the competition will be invited to present their work at the
 ## <a id="call"></a>Organizers/Contact
 - **Mark Hasegawa-Johnson** ([jhasegaw@illinois.edu](mailto:jhasegaw@illinois.edu)) — University of Illinois
 - **Xiuwen Zheng** ([xiuwenz2@illinois.edu](mailto:xiuwenz2@illinois.edu)) — University of Illinois
-- **Subhashini Venugopalan** ([vsubhashini@google.com](mailto:vsubhashini@google.com)) — Google Research
-- **Dhruuv Agarwal** ([dhruuv@google.com](mailto:dhruuv@google.com)) — Google DeepMind
+- **Subhashini Venugopalan** ([vsubhashini@google.com](mailto:vsubhashini@google.com)) — Google
+- **Dhruuv Agarwal** ([dhruuv@google.com](mailto:dhruuv@google.com)) — Google
 - **Venkatesh Ravichandran** ([veravic@amazon.com](mailto:veravic@amazon.com)) — Amazon
 - **Colin Lea** ([colin.lea@apple.com](mailto:colin.lea@apple.com)) — Apple
 - **Ed Cutrell** ([cutrell@microsoft.com](mailto:cutrell@microsoft.com)) — Microsoft
