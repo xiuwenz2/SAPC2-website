@@ -19,14 +19,14 @@ Welcome to the Speech Accessibility Project Challenge 2 (SAPC2). Built on the su
 <div class="how-to-participate">
 
 <div class="step-item">
-  <div class="step-title"><strong>Step 1: Register Your Team</strong></div>
+  <div class="step-title">Step 1: Register Your Team</div>
   <div class="step-text">
     Please register your team for the challenge using the <a href="https://forms.gle/bajUuCF6xZYbVq2A9">Team Registration Form</a>.
   </div>
 </div>
 
 <div class="step-item">
-  <div class="step-title"><strong>Step 2: Request Data Access</strong></div>
+  <div class="step-title">Step 2: Request Data Access</div>
   <div class="step-text">
     To access the SAP corpus, please submit the
     <a href="https://speechaccessibilityproject.beckman.illinois.edu/docs/librariesprovider8/default-document-library/data-transfer-and-use-agreement-speech-accessibility-project.pdf?sfvrsn=909bd90f_20">Data Transfer and Use Agreement (DUA)</a>
@@ -36,7 +36,7 @@ Welcome to the Speech Accessibility Project Challenge 2 (SAPC2). Built on the su
 </div>
 
 <div class="step-item">
-  <div class="step-title"><strong>Step 3: Develop Your System</strong></div>
+  <div class="step-title">Step 3: Develop Your System</div>
   <div class="step-text">
     To help you get started, we have provided a starting kit and local decoding scripts. Check out the
     <a href="https://github.com/xiuwenz2/SAPC-template">SAPC-template on GitHub</a>.
@@ -44,7 +44,7 @@ Welcome to the Speech Accessibility Project Challenge 2 (SAPC2). Built on the su
 </div>
 
 <div class="step-item">
-  <div class="step-title"><strong>Step 4: Submit to Codabench</strong></div>
+  <div class="step-title">Step 4: Submit to Codabench</div>
   <div class="step-text">
     Competitors will submit trained systems through Codabench:
     <a href="https://www.codabench.org/competitions/14176">Track 1 (Unconstrained ASR)</a>,
@@ -58,6 +58,22 @@ Welcome to the Speech Accessibility Project Challenge 2 (SAPC2). Built on the su
 ## News
 
 <div class="news-list">
+
+<div class="news-item">
+  <div class="news-date">2026-09-07</div>
+  <div class="news-text">
+    <strong><span style="color: #E84A27;">Update: Track 2 Latency Metric (TTFT → TTFT-stable)</span></strong><br>
+    To mitigate potential reward-hacking risk (e.g., blurting out a guessed first word before enough audio has been
+    processed to reduce raw TTFT), the Time To First Token metric is upgraded from <strong>TTFT</strong> to
+    <strong>TTFT-stable</strong>, which measures the time until a system's first word has locked in to its final
+    value. See
+    <a href="https://github.com/xiuwenz2/SAPC-template/blob/main/utils/compute_latency.py">compute_latency.py</a>
+    for the exact definition.<br>
+    In addition, submissions will be <strong>rejected</strong> if their
+    <a href="https://github.com/xiuwenz2/SAPC-template/blob/main/utils/stable_sentence_prefix_match.py">stable sentence-prefix match rate</a>
+    falls below <strong>1/3</strong>.
+  </div>
+</div>
 
 <div class="news-item">
   <div class="news-date">2026-08-24</div>
@@ -194,10 +210,11 @@ Competitors will submit trained model parameters and inference code through Coda
 - **Latency metrics (Track 2 only)**
   - Latency is computed from streaming partial results on the streaming manifest (`*_streaming.csv`) and reported as median (**P50**, in ms).
   - Reference implementation: [`compute_latency.py`](https://github.com/xiuwenz2/SAPC-template/blob/main/utils/compute_latency.py).
-  - **Time To First Token (TTFT, P50, ms):** `first_non_empty_partial_time - (audio_send_start_time + mfa_speech_start)`.
+  - <s>**Time To First Token (TTFT, P50, ms):** `first_non_empty_partial_time - (audio_send_start_time + mfa_speech_start)`.</s>
+  - <span style="color: #E84A27;">**Time To First Token, stable (TTFT-stable, P50, ms):** `first_stable_partial_time - (audio_send_start_time + mfa_speech_start)`, where `first_stable_partial_time` is the earliest time at which a system's first word has already settled to its final value (scanning backward from the final transcript). TTFT-stable replaces TTFT to reduce reward-hacking risk from guessing an early word before enough audio has been processed. Reference implementation: [`compute_latency.py`](https://github.com/xiuwenz2/SAPC-template/blob/main/utils/compute_latency.py). Submissions with a [stable sentence-prefix match rate](https://github.com/xiuwenz2/SAPC-template/blob/main/utils/stable_sentence_prefix_match.py) below **1/3** will be rejected.</span>
   - **Time To Last Token (TTLT, P50, ms):** `final_visible_time - audio_end_oracle_time`, where `audio_end_oracle_time = audio_send_start_time + audio_duration_sec`.
   - For robustness analysis, P90 latency may also be reported in detailed outputs.
-  - For Pareto comparison, we use the average of TTFT and TTLT as latency; non-streaming ASR is assigned infinity.
+  - For Pareto comparison, we use the average of TTFT-stable and TTLT as latency; non-streaming ASR is assigned infinity.
 
 ## <a id="call"></a>Prizes & Publication
 A total prize of U.S. $10,000 will be divided equally among all teams with a system on the Pareto frontier of accuracy and latency, as measured using the sequestered test2 set.
