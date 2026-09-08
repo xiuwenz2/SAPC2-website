@@ -11,22 +11,22 @@ hero_meta: >
   Contact: <a href="mailto:sapchallenge@lists.illinois.edu">sapchallenge@lists.illinois.edu</a>
 </p>
 
-## <a id="call"></a>Competition Overview
-Welcome to the Speech Accessibility Project Challenge 2 (SAPC2). SAPC2 builds on the success of the Interspeech 2025 Speech Accessibility Project Challenge (<a href="https://eval.ai/web/challenges/challenge-page/2362/overview">Challenge API</a>), which demonstrated significant progress in dysarthric speech recognition — reducing Word Error Rate (WER) from the Whisper-large-v2 baseline of 17.82% to 8.11%. This new edition introduces a larger, more diverse, and etiology-balanced corpus, and features two complementary tracks: an **Unconstrained ASR Track** for advancing state-of-the-art accuracy, and a **Streaming ASR Track** for lightweight, low-latency systems. The competition deadline is **October 24, 2026 (AoE)**, with a workshop at NeurIPS 2026 in Sydney, Australia.
+<!-- ## <a id="call"></a>Competition Overview -->
+Welcome to the Speech Accessibility Project Challenge 2 (SAPC2). Built on the success of the Interspeech 2025 Speech Accessibility Project Challenge (<a href="https://eval.ai/web/challenges/challenge-page/2362/overview">Challenge API</a>), which demonstrated significant progress in dysarthric speech recognition — reducing Word Error Rate (WER) from the Whisper-large-v2 baseline of 17.82% to 8.11%, SAPC2 introduces a larger, more diverse, and etiology-balanced corpus, and features two complementary tracks: an **Unconstrained ASR Track** for advancing state-of-the-art accuracy, and a **Streaming ASR Track** for lightweight, low-latency systems. The competition deadline is **October 24, 2026 (AoE)**, with a workshop at NeurIPS 2026 in Sydney, Australia.
 
 ## <a id="how-to-participate"></a>How to Participate
 
 <div class="how-to-participate">
 
 <div class="step-item">
-  <div class="step-title">Step 1: Register Your Team</div>
+  <div class="step-title"><strong>Step 1: Register Your Team</strong></div>
   <div class="step-text">
     Please register your team for the challenge using the <a href="https://forms.gle/bajUuCF6xZYbVq2A9">Team Registration Form</a>.
   </div>
 </div>
 
 <div class="step-item">
-  <div class="step-title">Step 2: Request Data Access</div>
+  <div class="step-title"><strong>Step 2: Request Data Access</strong></div>
   <div class="step-text">
     To access the SAP corpus, please submit the
     <a href="https://speechaccessibilityproject.beckman.illinois.edu/docs/librariesprovider8/default-document-library/data-transfer-and-use-agreement-speech-accessibility-project.pdf?sfvrsn=909bd90f_20">Data Transfer and Use Agreement (DUA)</a>
@@ -36,7 +36,7 @@ Welcome to the Speech Accessibility Project Challenge 2 (SAPC2). SAPC2 builds on
 </div>
 
 <div class="step-item">
-  <div class="step-title">Step 3: Develop Your System</div>
+  <div class="step-title"><strong>Step 3: Develop Your System</strong></div>
   <div class="step-text">
     To help you get started, we have provided a starting kit and local decoding scripts. Check out the
     <a href="https://github.com/xiuwenz2/SAPC-template">SAPC-template on GitHub</a>.
@@ -44,9 +44,9 @@ Welcome to the Speech Accessibility Project Challenge 2 (SAPC2). SAPC2 builds on
 </div>
 
 <div class="step-item">
-  <div class="step-title">Step 4: Submit to Codabench</div>
+  <div class="step-title"><strong>Step 4: Submit to Codabench</strong></div>
   <div class="step-text">
-    Competitors will submit trained model parameters and inference code through Codabench:
+    Competitors will submit trained systems through Codabench:
     <a href="https://www.codabench.org/competitions/14176">Track 1 (Unconstrained ASR)</a>,
     <a href="https://www.codabench.org/competitions/14177">Track 2 (Streaming ASR)</a>.<br>
     <strong>Deadline for submissions: October 24, 2026 AoE</strong>
