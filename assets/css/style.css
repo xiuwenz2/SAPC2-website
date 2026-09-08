@@ -38,8 +38,15 @@ body {
 }
 
 .site-title:hover {
-  color: #E84A27; 
+  color: #E84A27;
   text-decoration: none;
+}
+
+.site-subtitle {
+  margin: 0.15rem 0 0;
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #707372;
 }
 
 /* Nav links */
