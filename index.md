@@ -64,7 +64,7 @@ Welcome to the Speech Accessibility Project Challenge 2 (SAPC2). Built on the su
   <div class="news-text">
     <strong><span style="color: #E84A27;">Update: Track 2 Latency Metric (TTFT → TTFT-stable)</span></strong><br>
     To mitigate potential reward-hacking risk, the Time To First Token (TTFT) metric is upgraded to
-    <a href="https://github.com/xiuwenz2/SAPC-template/blob/d96ef4872694f56688efdce884d5751ee5916e26/utils/compute_latency.py#L111"><strong>TTFT-stable</strong><\a>, which measures the earliest timestamp
+    <a href="https://github.com/xiuwenz2/SAPC-template/blob/d96ef4872694f56688efdce884d5751ee5916e26/utils/compute_latency.py#L111"><strong>TTFT-stable</strong></a>, which measures the earliest timestamp
     where the hypothesis’s first word has already settled to its final value.
     In addition, submissions will be <strong>rejected</strong> if their
     <a href="https://github.com/xiuwenz2/SAPC-template/blob/main/utils/stable_sentence_prefix_match.py">stable sentence-prefix match rate</a>
@@ -186,6 +186,8 @@ Welcome to the Speech Accessibility Project Challenge 2 (SAPC2). Built on the su
   <div class="news-text">
     SAPC2 Challenge website launched!
   </div>
+</div>
+
 </div>
 
 ## <a id="call"></a>Challenge Tracks
