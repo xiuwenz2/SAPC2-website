@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Speech Accessibility Project Challenge 2"
-subtitle: "Advancing universal dysarthric speech recognition from offline to real time."
+subtitle: "Advancing universal dysarthric speech recognition from offline to real time"
 is_home: true
 ---
 

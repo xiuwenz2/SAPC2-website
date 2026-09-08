@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Leaderboard"
+subtitle: "Advancing universal dysarthric speech recognition from offline to real time"
 permalink: /leaderboard/
 ---
 

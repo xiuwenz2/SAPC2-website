@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Baseline"
+subtitle: "Advancing universal dysarthric speech recognition from offline to real time"
 permalink: /baseline/
 ---
 

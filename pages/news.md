@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "News"
+subtitle: "Advancing universal dysarthric speech recognition from offline to real time"
 permalink: /news/
 ---
 
