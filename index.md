@@ -188,8 +188,6 @@ Welcome to the Speech Accessibility Project Challenge 2 (SAPC2). Built on the su
   </div>
 </div>
 
-</div>
-
 ## <a id="call"></a>Challenge Tracks
 The challenge features two complementary tracks:
 1. **Unconstrained ASR Track**: Participants may use models of any size or architecture, aiming to advance the state of the art in dysarthric speech recognition.
