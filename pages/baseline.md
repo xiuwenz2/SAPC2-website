@@ -1,17 +1,17 @@
 ---
 layout: default
-title: "Track 1"
-permalink: /track1/
+title: "Baseline"
+permalink: /baseline/
 ---
 
-## Track 1: Unconstrained ASR Track
+## Baseline
+
+### Track 1: Unconstrained ASR Track
 
 **Goal:** Advance the state of the art in dysarthric speech recognition.
 
-### Baseline Results
+#### Baseline Results
 Official baselines follow the same ranking system as the <a href="https://huggingface.co/spaces/hf-audio/open_asr_leaderboard">HuggingFace Open ASR Leaderboard</a>.
-<!-- Official baselines and reproducible code are available at
-<a href="YOUR_BASELINES_REPO_URL" target="_blank" rel="noopener">this repository</a>. -->
 <div class="baseline-block">
   <div class="table-wrapper">
     <table class="baseline-table">
@@ -93,3 +93,38 @@ Official baselines follow the same ranking system as the <a href="https://huggin
 
 </div>
 
+### Track 2: Streaming ASR Track
+
+**Goal:** Promote lightweight, deployable dysarthric ASR solutions for real-world use.
+
+#### Baseline Results
+We report one official baseline on Test1 with both accuracy and latency metrics.
+
+<div class="baseline-block">
+  <div class="table-wrapper">
+    <table class="baseline-table">
+      <thead>
+        <tr>
+          <th rowspan="2">Model ID</th>
+          <th colspan="4">Test1</th>
+        </tr>
+        <tr>
+          <th>CER ↓</th>
+          <th>WER ↓</th>
+          <th>TTFT P50 (ms) ↓</th>
+          <th>TTLT P50 (ms) ↓</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+        <td><code><a href="https://huggingface.co/Zengwei/icefall-asr-librispeech-streaming-zipformer-2023-05-17">Zengwei/icefall-asr-librispeech-streaming-zipformer-2023-05-17</a></code></td>
+          <td>34.59</td>
+          <td>52.77</td>
+          <td>1025.04</td>
+          <td>423.46</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</div>

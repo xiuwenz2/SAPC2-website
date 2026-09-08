@@ -13,6 +13,5 @@ header_pages:
   - pages/news.md
   - pages/timeline.md
   - pages/leaderboard.md
-  - pages/track1.md
-  - pages/track2.md
+  - pages/baseline.md
   - pages/faqs.md
