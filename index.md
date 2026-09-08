@@ -5,6 +5,7 @@ subtitle: "Advancing universal dysarthric speech recognition from offline to rea
 is_home: true
 ---
 
+## <a id="call"></a>Challenge Overview
 <p>
   Welcome to the <strong>Speech Accessibility Project Challenge 2 (SAPC2)</strong>.
 </p>
