@@ -173,6 +173,36 @@ h3 { font-size: 1.12rem; }
   font-size: 0.95rem;
 }
 
+/* ---------- Weekly report section ---------- */
+
+.weekly-report-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 10px 0 20px;
+}
+
+.weekly-report-item {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 12px 16px;
+  border: 1px solid #e5e7eb;
+  border-left: 4px solid #E84A27;   /* Illinois orange accent */
+  box-shadow: 0 2px 4px rgba(15, 23, 42, 0.04);
+}
+
+.weekly-report-date {
+  font-weight: 700;
+  color: #13294B;
+  margin-bottom: 4px;
+  font-size: 1.00rem;
+}
+
+.weekly-report-text {
+  line-height: 1.55;
+  font-size: 0.95rem;
+}
+
 /* ---------- Links ---------- */
 
 /* Base style for all links (no underline by default) */
