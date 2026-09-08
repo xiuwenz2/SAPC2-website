@@ -20,8 +20,8 @@ is_home: true
 </p>
 
 <p>
-  <strong>Competition Deadline:</strong> October 24, 2026 (AoE)<br>
-  <strong>Workshop:</strong> NeurIPS 2026, Sydney, Australia<br>
+  <strong>Competition Deadline:</strong> October 24, 2026 (AoE) | 
+  <strong>Workshop:</strong> NeurIPS 2026, Sydney, Australia | 
   <strong>Contact:</strong>
   <a href="mailto:sapchallenge@lists.illinois.edu">
     sapchallenge@lists.illinois.edu

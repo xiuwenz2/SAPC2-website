@@ -30,11 +30,13 @@ body {
 
 /* Site title */
 .site-title {
+  display: block;
   font-size: 1.7rem;
   font-weight: 700;
   color: #13294B;                   /* UIUC blue */
   text-decoration: none;
   letter-spacing: 0.02em;
+  line-height: 1.15;
 }
 
 .site-title:hover {
@@ -43,10 +45,11 @@ body {
 }
 
 .site-subtitle {
-  margin: 0.15rem 0 0;
+  margin: 0;
   font-size: 0.95rem;
   font-weight: 500;
   color: #707372;
+  line-height: 1.15;
 }
 
 /* Nav links */
