@@ -92,6 +92,37 @@ h3 { font-size: 1.12rem; }
   color: #707372;
 }
 
+/* ---------- How to Participate section ---------- */
+
+.how-to-participate {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.step-item {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 14px 18px;
+  border: 1px solid #e5e7eb;
+  border-left: 4px solid #E84A27;   /* Illinois orange accent */
+  box-shadow: 0 2px 4px rgba(15, 23, 42, 0.04);
+}
+
+.step-title {
+  font-weight: 700;
+  color: #13294B;                   /* Match section title blue */
+  margin-bottom: 4px;
+  font-size: 1.05rem;
+}
+
+.step-text {
+  line-height: 1.55;
+  font-size: 0.95rem;
+}
+
 /* ---------- News section ---------- */
 
 .news-list {
