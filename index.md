@@ -63,12 +63,9 @@ Welcome to the Speech Accessibility Project Challenge 2 (SAPC2). Built on the su
   <div class="news-date">2026-09-07</div>
   <div class="news-text">
     <strong><span style="color: #E84A27;">Update: Track 2 Latency Metric (TTFT → TTFT-stable)</span></strong><br>
-    To mitigate potential reward-hacking risk (e.g., blurting out a guessed first word before enough audio has been
-    processed to reduce raw TTFT), the Time To First Token metric is upgraded from <strong>TTFT</strong> to
-    <strong>TTFT-stable</strong>, which measures the time until a system's first word has locked in to its final
-    value. See
-    <a href="https://github.com/xiuwenz2/SAPC-template/blob/main/utils/compute_latency.py">compute_latency.py</a>
-    for the exact definition.<br>
+    To mitigate potential reward-hacking risk, the Time To First Token (TTFT) metric is upgraded to
+    <a href="https://github.com/xiuwenz2/SAPC-template/blob/d96ef4872694f56688efdce884d5751ee5916e26/utils/compute_latency.py#L111"><strong>TTFT-stable</strong><\a>, which measures the earliest timestamp
+    where the hypothesis’s first word has already settled to its final value.
     In addition, submissions will be <strong>rejected</strong> if their
     <a href="https://github.com/xiuwenz2/SAPC-template/blob/main/utils/stable_sentence_prefix_match.py">stable sentence-prefix match rate</a>
     falls below <strong>1/3</strong>.
@@ -211,7 +208,7 @@ Competitors will submit trained model parameters and inference code through Coda
   - Latency is computed from streaming partial results on the streaming manifest (`*_streaming.csv`) and reported as median (**P50**, in ms).
   - Reference implementation: [`compute_latency.py`](https://github.com/xiuwenz2/SAPC-template/blob/main/utils/compute_latency.py).
   - <s>**Time To First Token (TTFT, P50, ms):** `first_non_empty_partial_time - (audio_send_start_time + mfa_speech_start)`.</s>
-  - <span style="color: #E84A27;">**Time To First Token, stable (TTFT-stable, P50, ms):** `first_stable_partial_time - (audio_send_start_time + mfa_speech_start)`, where `first_stable_partial_time` is the earliest time at which a system's first word has already settled to its final value (scanning backward from the final transcript). TTFT-stable replaces TTFT to reduce reward-hacking risk from guessing an early word before enough audio has been processed. Reference implementation: [`compute_latency.py`](https://github.com/xiuwenz2/SAPC-template/blob/main/utils/compute_latency.py). Submissions with a [stable sentence-prefix match rate](https://github.com/xiuwenz2/SAPC-template/blob/main/utils/stable_sentence_prefix_match.py) below **1/3** will be rejected.</span>
+  - <span style="color: #E84A27;">**Time To First Token, stable (TTFT-stable, P50, ms):** `first_stable_partial_time - (audio_send_start_time + mfa_speech_start)`, where `first_stable_partial_time` is the earliest time at which a system's first word has already settled to its final value. TTFT-stable replaces TTFT to reduce reward-hacking risk from guessing an early word before enough audio has been processed. Submissions with a [stable sentence-prefix match rate](https://github.com/xiuwenz2/SAPC-template/blob/main/utils/stable_sentence_prefix_match.py) below **1/3** will be rejected.</span>
   - **Time To Last Token (TTLT, P50, ms):** `final_visible_time - audio_end_oracle_time`, where `audio_end_oracle_time = audio_send_start_time + audio_duration_sec`.
   - For robustness analysis, P90 latency may also be reported in detailed outputs.
   - For Pareto comparison, we use the average of TTFT-stable and TTLT as latency; non-streaming ASR is assigned infinity.
