@@ -62,7 +62,7 @@ body {
 .site-nav {
   flex: 0 0 auto;
   display: grid;
-  grid-template-columns: repeat(2, auto);
+  grid-template-columns: repeat(3, auto);
   column-gap: 1.25rem;
   row-gap: 0.4rem;
   padding-top: 0.35rem;
