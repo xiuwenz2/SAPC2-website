@@ -5,7 +5,7 @@ subtitle: "Advancing universal dysarthric speech recognition from offline to rea
 is_home: true
 ---
 
-## <a id="call"></a>Challenge Overview
+## <a id="overview"></a>Challenge Overview
 <p>
   Welcome to the <strong>Speech Accessibility Project Challenge 2 (SAPC2)</strong>.
 </p>
@@ -22,6 +22,7 @@ is_home: true
 
 <p>
   <strong>Competition Deadline:</strong> October 24, 2026 (AoE) | 
+  <strong>Paper Deadline:</strong> October 31, 2026 (AoE) | 
   <strong>Workshop:</strong> NeurIPS 2026, Sydney, Australia | 
   <strong>Contact:</strong>
   <a href="mailto:sapchallenge@lists.illinois.edu">
@@ -30,14 +31,14 @@ is_home: true
 </p>
 
 
-## <a id="call"></a>Challenge Tracks
+## <a id="tracks"></a>Challenge Tracks
 The challenge features two complementary tracks:
 1. **Unconstrained ASR Track**: Participants may use models of any size or architecture, aiming to advance the state of the art in dysarthric speech recognition.
 2. **Streaming ASR Track**: Submitted systems will be placed on a Pareto chart of system latency and system accuracy, promoting lightweight and deployable solutions for real-world use.
 
 Competitors will submit trained model parameters and inference code through Codabench (<a href="https://www.codabench.org/competitions/14176">Track 1</a>; <a href="https://www.codabench.org/competitions/14177">Track 2</a>) up to a maximum number of permitted submissions. Results on test1 will be released within three days of submission. Results on test2 will be released after the close of competition.
 
-## <a id="call"></a>Prizes & Publication
+## <a id="prizes"></a>Prizes & Publication
 A total prize of U.S. $10,000 will be divided equally among all teams with a system on the Pareto frontier of accuracy and latency, as measured using the sequestered test2 set.
 
 To clarify how winners are selected across tracks:
@@ -45,7 +46,7 @@ To clarify how winners are selected across tracks:
 - **Track 1 (Unconstrained ASR):** submissions are non-streaming systems and are ranked by recognition accuracy. For Pareto comparison, Track 1 latency is set to **inf**. Exactly **one non-streaming ASR** system will win.
 - **Track 2 (Streaming ASR):** submissions are ranked by the competition's accuracy-latency criteria, and **one or more** streaming systems may win.
 
-Teams submitting to the competition will be invited to present their work at the **SAPC2 competition workshop at NeurIPS 2026 in Sydney, Australia**. NeurIPS 2026 Workshops & Competitions will take place on **December 11–12, 2026**; the exact SAPC2 session date and time will be announced later.
+Teams submitting to the competition are invited to present their work at the **SAPC2 competition workshop at NeurIPS 2026 in Sydney, Australia**. Teams are welcome to submit a non-archival workshop paper describing their system (see <a href="{{ site.baseurl }}/papers/">Call for Papers</a>) and should confirm their intent to attend. NeurIPS 2026 Workshops & Competitions will take place on **December 11–12, 2026**. The SAPC2 session is tentatively scheduled for **Friday, December 11, 15:30–17:45 (Room MR C4.3)**, subject to change.
 
 ## <a id="how-to-participate"></a>How to Participate
 
@@ -86,9 +87,21 @@ Teams submitting to the competition will be invited to present their work at the
   </div>
 </div>
 
+<div class="step-item">
+  <div class="step-title">Step 5: Submit Your Workshop Paper</div>
+  <div class="step-text">
+    Optionally, submit a 3–6 page, <strong>non-archival</strong> paper describing your system to
+    present at the workshop, through the process described on the
+    <a href="{{ site.baseurl }}/papers/">Call for Papers</a> page.<br>
+    <strong>Paper submission deadline: October 31, 2026 (AoE)</strong> |
+    <strong>Acceptance notification: November 7, 2026</strong> |
+    <strong>Confirm intent to attend: November 15, 2026</strong>
+  </div>
 </div>
 
-## <a id="call"></a>Evaluation Metrics
+</div>
+
+## <a id="metrics"></a>Evaluation Metrics
 - **Accuracy metrics (Track 1 & Track 2)**
   - Accuracy transcripts are normalized with a fully formatted normalizer adapted from the HuggingFace ASR leaderboard.
   - **Character Error Rate (CER):** primary metric, chosen for better correlation with human judgments and sensitivity to pronunciation variations in dysarthric speech.
@@ -104,7 +117,7 @@ Teams submitting to the competition will be invited to present their work at the
   - For robustness analysis, P90 latency may also be reported in detailed outputs.
   - For Pareto comparison, we use the average of TTFT-stable and TTLT as latency; non-streaming ASR is assigned infinity.
 
-## <a id="call"></a>Organizers/Contact
+## <a id="organizers"></a>Organizers/Contact
 - **Mark Hasegawa-Johnson** ([jhasegaw@illinois.edu](mailto:jhasegaw@illinois.edu)) — University of Illinois
 - **Xiuwen Zheng** ([xiuwenz2@illinois.edu](mailto:xiuwenz2@illinois.edu)) — University of Illinois
 - **Subhashini Venugopalan** — Google
@@ -115,7 +128,7 @@ Teams submitting to the competition will be invited to present their work at the
 
 General inquiries: [sapchallenge@lists.illinois.edu](mailto:sapchallenge@lists.illinois.edu)
 
-## <a id="call"></a>Acknowledgements
+## <a id="acknowledgements"></a>Acknowledgements
 The Speech Accessibility Project is funded by a grant from the AI Accessibility Coalition. Computational resources for the challenge are provided by the National Center for Supercomputing Applications (NCSA). We would also like to thank Rob Kooper (NCSA), Wei Kang (Xiaomi Corp.), and Maisy Wieman (SoundHound AI) for their expertise and invaluable assistance in setting up the challenge.
 
 ## References

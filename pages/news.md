@@ -10,6 +10,18 @@ permalink: /news/
 <div class="news-list">
 
 <div class="news-item">
+  <div class="news-date">2026-09-25</div>
+  <div class="news-text">
+    <strong><span style="color: #E84A27;">Call for Papers: SAPC2 Workshop</span></strong><br>
+    Teams are invited to submit a <strong>3–6 page workshop paper</strong> describing their system.
+    See the <a href="{{ site.baseurl }}/papers/">Call for Papers</a> for details.<br>
+    <strong>Submission deadline: October 31, 2026</strong> |
+    <strong>Acceptance notification: November 7, 2026</strong> |
+    <strong>Confirm intent to attend: November 15, 2026</strong>
+  </div>
+</div>
+
+<div class="news-item">
   <div class="news-date">2026-09-07</div>
   <div class="news-text">
     <strong><span style="color: #E84A27;">Update: Track 2 Latency Metric (TTFT → TTFT-stable)</span></strong><br>

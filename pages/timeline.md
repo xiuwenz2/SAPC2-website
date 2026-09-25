@@ -39,9 +39,31 @@ permalink: /timeline/
   </div>
 
   <div class="news-item">
-    <div class="news-date">TO BE ANNOUNCED</div>
+    <div class="news-date">2026-10-31</div>
     <div class="news-text">
-      <strong><span style="color: #E84A27;">Suggested Submission Date & Universal Notification Deadline for Workshop Contributions</span></strong>
+      <strong><span style="color: #E84A27;">Workshop paper submission deadline</span></strong> — see the <a href="{{ site.baseurl }}/papers/">Call for Papers</a>.
+    </div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">2026-11-07</div>
+    <div class="news-text">
+      <strong><span style="color: #E84A27;">Paper acceptance notification</span></strong>
+    </div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">2026-11-15</div>
+    <div class="news-text">
+      <strong><span style="color: #E84A27;">Deadline to confirm intent to attend the workshop</span></strong>
+    </div>
+  </div>
+
+  <div class="news-item">
+    <div class="news-date">2026-12-11</div>
+    <div class="news-text">
+      <strong><span style="color: #E84A27;">SAPC2 Workshop at NeurIPS 2026</span></strong>, Sydney, Australia. Tentatively scheduled for
+      <strong>15:30–17:45, Room MR C4.3</strong> (subject to change).
     </div>
   </div>
 
