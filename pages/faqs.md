@@ -34,6 +34,12 @@ not combined with CER. For Track 2, latency uses TTFT-stable and TTLT with equal
 A: Submit your system using the provided <a href="https://github.com/xiuwenz2/SAPC-template">starter template</a> through the CodaBench Challenge page
 (<a href="https://www.codabench.org/competitions/14176">Track 1</a>; <a href="https://www.codabench.org/competitions/14177">Track 2</a>) to receive official evaluation and appear on the leaderboard.
 
+**Q: My submission has been stuck in "Submitted" or "Preparing" for a long time. What should I do?**  
+A: If any of your older submissions has been stuck in the "Submitted" or "Preparing" stage for an
+extended period, please cancel it manually and resubmit. We may also cancel clearly stuck
+submissions when we identify them. This issue is most likely caused by instability in the
+Codabench backend.
+
 **Q: Do I need to open-source my code?**  
 A: No. Code submitted to the challenge remains the intellectual property of the submitting
 team unless separately open-sourced.
@@ -46,3 +52,8 @@ venues (e.g., Interspeech, ICASSP) afterward. Review is lightweight: papers are 
 are not rejected based on technical content, only if unrelated to the competition or too unclear
 to understand. See the <a href="{{ site.baseurl }}/papers/">Call for Papers</a> for details and
 deadlines.
+
+**Q: Can I submit a workshop paper on related work that does not use the SAPC2 benchmark?**  
+A: Yes. The purpose of the workshop is to discuss methods that work for streaming and
+non-streaming dysarthric ASR. The competition provides a standard benchmark for that task, but
+approaches to the problem that do not use the shared benchmark are also in scope.
