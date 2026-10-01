@@ -112,10 +112,15 @@ Teams submitting to the competition are invited to present their work at the **S
   - Latency is computed from streaming partial results on the streaming manifest (`*_streaming.csv`) and reported as median (**P50**, in ms).
   - Reference implementation: [`compute_latency.py`](https://github.com/xiuwenz2/SAPC-template/blob/main/utils/compute_latency.py).
   - <s>**Time To First Token (TTFT, P50, ms):** `first_non_empty_partial_time - (audio_send_start_time + mfa_speech_start)`.</s>
-  - <span style="color: #E84A27;">**Time To First Token, stable (TTFT-stable, P50, ms):** `first_stable_partial_time - (audio_send_start_time + mfa_speech_start)`, where `first_stable_partial_time` is the earliest time at which a system's first word has already settled to its final value. TTFT-stable replaces TTFT to reduce reward-hacking risk from guessing an early word before enough audio has been processed. Submissions with a [stable sentence-prefix match rate](https://github.com/xiuwenz2/SAPC-template/blob/main/utils/stable_sentence_prefix_match.py) below **1/3** will be rejected.</span>
+  - <span style="color: #E84A27;">**Time To First Token, stable (TTFT-stable, P50, ms):** `first_stable_partial_time - (audio_send_start_time + mfa_speech_start)`, where `first_stable_partial_time` is the earliest time at which a system's first word has already settled to its final value. TTFT-stable replaces TTFT to reduce reward-hacking risk from guessing an early word before enough audio has been processed.</span>
   - **Time To Last Token (TTLT, P50, ms):** `final_visible_time - audio_end_oracle_time`, where `audio_end_oracle_time = audio_send_start_time + audio_duration_sec`.
   - For robustness analysis, P90 latency may also be reported in detailed outputs.
   - For Pareto comparison, we use the average of TTFT-stable and TTLT as latency; non-streaming ASR is assigned infinity.
+
+### <a id="track2-reject-policy"></a><span style="color: #E84A27;">Track 2 Submission Rejection Policy</span>
+A Track 2 submission is **rejected** (excluded from the final ranking) if either of the following holds:
+- **Unstable first word:** its [stable sentence-prefix match rate](https://github.com/xiuwenz2/SAPC-template/blob/main/utils/stable_sentence_prefix_match.py) on Test1 is below **1/3**.
+- **Inconsistent Pass 1 / Pass 2 transcripts:** CER/WER are scored on Pass 1 (batch) and latency on Pass 2 (streaming), so both passes must produce the same final transcript (after normalization) for every Test1/Test2 streaming utterance. Mismatches lead to rejection unless the organizers judge them to be benign numerical non-determinism.
 
 ## <a id="organizers"></a>Organizers/Contact
 - **Mark Hasegawa-Johnson** ([jhasegaw@illinois.edu](mailto:jhasegaw@illinois.edu)) — University of Illinois

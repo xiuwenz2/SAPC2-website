@@ -37,7 +37,7 @@ submitting the same or an extended version of the work to other venues (e.g., In
 ### Submission Requirements
 - **Length:** 3–6 pages, excluding references.
 - **Format:** No specific template is required; we recommend the <a href="https://media.neurips.cc/Conferences/NeurIPS2026/Formatting_Instructions_For_NeurIPS_2026.zip">NeurIPS style template</a>.
-- **Submission site:** TO BE ANNOUNCED (OpenReview link will be posted here).
+- **Submission site:** <a href="https://openreview.net/group?id=NeurIPS.cc/2026/Workshop/A2NetOps">OpenReview</a>. If you run into any issues submitting, please <a href="mailto:sapchallenge@lists.illinois.edu">contact us</a>.
 - **Review process:** Lightweight. Papers will **not** be rejected based on technical content —
   review checks only that a paper is relevant to the competition and clearly written enough to
   understand.

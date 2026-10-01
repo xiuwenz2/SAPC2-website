@@ -10,6 +10,26 @@ permalink: /news/
 <div class="news-list">
 
 <div class="news-item">
+  <div class="news-date">2026-10-01</div>
+  <div class="news-text">
+    <strong><span style="color: #E84A27;">Workshop Paper Submission Site Open</span></strong><br>
+    The <a href="https://openreview.net/group?id=NeurIPS.cc/2026/Workshop/A2NetOps">OpenReview submission site</a>
+    for SAPC2 workshop papers is now open. See the <a href="{{ site.baseurl }}/papers/">Call for Papers</a> for details.
+    <strong>Submission deadline: October 31, 2026 (AoE)</strong>
+  </div>
+</div>
+
+<div class="news-item">
+  <div class="news-date">2026-10-01</div>
+  <div class="news-text">
+    <strong><span style="color: #E84A27;">Update: Track 2 Submission Rejection Policy</span></strong><br>
+    Track 2 submissions whose Pass 1 (batch) and Pass 2 (streaming) final transcripts differ will now be
+    <strong>rejected</strong>. See the
+    <a href="{{ site.baseurl }}/#track2-reject-policy">Track 2 Submission Rejection Policy</a>.
+  </div>
+</div>
+
+<div class="news-item">
   <div class="news-date">2026-09-25</div>
   <div class="news-text">
     <strong><span style="color: #E84A27;">Call for Papers: SAPC2 Workshop</span></strong><br>
