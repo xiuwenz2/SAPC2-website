@@ -24,7 +24,10 @@ permalink: /news/
   <div class="news-text">
     <strong><span style="color: #E84A27;">Update: Track 2 Submission Rejection Policy</span></strong><br>
     Track 2 submissions whose Pass 1 (batch) and Pass 2 (streaming) final transcripts differ will now be
-    <strong>rejected</strong>. See the
+    <strong>rejected</strong>. In addition, the first-word rejection rule is changed from the stable
+    sentence-prefix match rate to <strong>early first-word emission</strong>: a submission is rejected if,
+    on more than <strong>5%</strong> of Test1 streaming utterances, its first word has already settled
+    before speech begins (TTFT-stable &lt; 0). See the
     <a href="{{ site.baseurl }}/#track2-reject-policy">Track 2 Submission Rejection Policy</a>.
   </div>
 </div>
@@ -48,9 +51,10 @@ permalink: /news/
     To mitigate potential reward-hacking risk, the Time To First Token (TTFT) metric is upgraded to
     <a href="https://github.com/xiuwenz2/SAPC-template/blob/d96ef4872694f56688efdce884d5751ee5916e26/utils/compute_latency.py#L111"><strong>TTFT-stable</strong></a>, which measures the earliest timestamp
     where the hypothesis’s first word has already settled to its final value.
-    In addition, submissions will be <strong>rejected</strong> if their
+    <s>In addition, submissions will be <strong>rejected</strong> if their
     <a href="https://github.com/xiuwenz2/SAPC-template/blob/main/utils/stable_sentence_prefix_match.py">stable sentence-prefix match rate</a>
-    falls below <strong>1/3</strong>.
+    falls below <strong>1/3</strong>.</s> (Superseded on 2026-10-01 by the
+    <a href="{{ site.baseurl }}/#track2-reject-policy">early first-word emission rule</a>.)
   </div>
 </div>
 
