@@ -52,7 +52,7 @@ permalink: /news/
     <a href="https://github.com/xiuwenz2/SAPC-template/blob/d96ef4872694f56688efdce884d5751ee5916e26/utils/compute_latency.py#L111"><strong>TTFT-stable</strong></a>, which measures the earliest timestamp
     where the hypothesis’s first word has already settled to its final value.
     <s>In addition, submissions will be <strong>rejected</strong> if their
-    <a href="https://github.com/xiuwenz2/SAPC-template/blob/main/utils/stable_sentence_prefix_match.py">stable sentence-prefix match rate</a>
+    <a href="https://github.com/xiuwenz2/SAPC-template/blob/d96ef4872694f56688efdce884d5751ee5916e26/utils/stable_sentence_prefix_match.py">stable sentence-prefix match rate</a>
     falls below <strong>1/3</strong>.</s> (Superseded on 2026-10-01 by the
     <a href="{{ site.baseurl }}/#track2-reject-policy">early first-word emission rule</a>.)
   </div>

@@ -119,8 +119,9 @@ Teams submitting to the competition are invited to present their work at the **S
 
 ### <a id="track2-reject-policy"></a><span style="color: #E84A27;">Track 2 Submission Rejection Policy</span>
 A Track 2 submission is **rejected** (excluded from the final ranking) if either of the following holds:
-- <s>**Unstable first word:** its [stable sentence-prefix match rate](https://github.com/xiuwenz2/SAPC-template/blob/main/utils/stable_sentence_prefix_match.py) on Test1 is below **1/3**.</s>
+- <s>**Unstable first word:** its [stable sentence-prefix match rate](https://github.com/xiuwenz2/SAPC-template/blob/d96ef4872694f56688efdce884d5751ee5916e26/utils/stable_sentence_prefix_match.py) on Test1 is below **1/3**.</s>
 - <span style="color: #E84A27;">**Early first-word emission:** on more than **5%** of Test1 streaming utterances, the first word has already settled to its final value before speech begins, i.e. `first_stable_partial_time < audio_send_start_time + mfa_speech_start` (TTFT-stable < 0). A word cannot be recognized before it is spoken, so this indicates the first word was guessed rather than recognized.</span>
+- Reference implementation of both rules: [`track2_reject_check.py`](https://github.com/xiuwenz2/SAPC-template/blob/main/utils/track2_reject_check.py).
 - **Inconsistent Pass 1 / Pass 2 transcripts:** CER/WER are scored on Pass 1 (batch) and latency on Pass 2 (streaming), so both passes must produce the same final transcript (after normalization) for every Test1/Test2 streaming utterance. Mismatches lead to rejection unless the organizers judge them to be benign numerical non-determinism.
 
 ## <a id="organizers"></a>Organizers/Contact
