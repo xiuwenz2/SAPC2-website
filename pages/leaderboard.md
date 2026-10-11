@@ -9,11 +9,17 @@ permalink: /leaderboard/
 
 ### Weekly Report
 We post a weekly PDF summary of standings on both tracks here. **This weekly report is the
-official leaderboard record** — in case of any discrepancy with the live Codabench leaderboard
-(e.g., pending re-scoring, disqualifications, or timing differences), the most recent weekly
-report posted here takes precedence.
+official leaderboard record**; the most recent weekly report posted here takes precedence.
 
 <div class="weekly-report-list">
+  <div class="weekly-report-item">
+    <div class="weekly-report-date">2026-10-10</div>
+    <div class="weekly-report-text">
+      <a href="{{ site.baseurl }}/assets/reports/weekly_report_2026-10-10.pdf" target="_blank" rel="noopener noreferrer">
+        Weekly Report — 2026-10-10 (PDF)
+      </a>
+    </div>
+  </div>
   <div class="weekly-report-item">
       <div class="weekly-report-date">2026-09-30</div>
       <div class="weekly-report-text">
@@ -47,10 +53,3 @@ report posted here takes precedence.
     </div>
   </div>
 </div>
-
-### Live Leaderboards
-For reference, you can also check the live, continuously-updating Codabench leaderboards below.
-Note that these may temporarily differ from the official weekly report above.
-
-- [Track 1 Results](https://www.codabench.org/competitions/14176/#/results-tab)
-- [Track 2 Results](https://www.codabench.org/competitions/14177/#/results-tab)

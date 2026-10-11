@@ -10,6 +10,16 @@ permalink: /news/
 <div class="news-list">
 
 <div class="news-item">
+  <div class="news-date">2026-10-10</div>
+  <div class="news-text">
+    <strong><span style="color: #E84A27;">Weekly Report Updated</span></strong><br>
+    The <a href="{{ site.baseurl }}/assets/reports/weekly_report_2026-10-10.pdf">2026-10-10 weekly report</a> has been posted.
+    Weekly reports are the official leaderboard record; the live Codabench leaderboards are no longer linked.
+    See the <a href="{{ site.baseurl }}/leaderboard/">Leaderboard</a> page for all reports.
+  </div>
+</div>
+
+<div class="news-item">
   <div class="news-date">2026-10-01</div>
   <div class="news-text">
     <strong><span style="color: #E84A27;">Workshop Paper Submission Site Open</span></strong><br>
