@@ -10,6 +10,27 @@ permalink: /news/
 <div class="news-list">
 
 <div class="news-item">
+  <div class="news-date">2026-10-18</div>
+  <div class="news-text">
+    <strong><span style="color: #E84A27;">Update: Final-Week Submission Limit</span></strong><br>
+    Evaluation is running several days behind due to the high volume of submissions. For the final week,
+    the Codabench daily submission limit has been reduced from <strong>3 to 1</strong>.
+    <strong>Final results will be announced only after every submission made before the deadline
+    (October 24, 2026, AoE) has been evaluated.</strong>
+  </div>
+</div>
+
+<div class="news-item">
+  <div class="news-date">2026-10-18</div>
+  <div class="news-text">
+    <strong><span style="color: #E84A27;">Notice: Handling of Stalled Submissions</span></strong><br>
+    Due to intermittent Codabench backend errors, a submission may occasionally be lost from the queue
+    and stay at "Submitted" or "Preparing". We regularly resubmit these in the background, but cannot
+    do so for deleted submissions. See the <a href="{{ site.baseurl }}/faqs/">FAQs</a> for details.
+  </div>
+</div>
+
+<div class="news-item">
   <div class="news-date">2026-10-10</div>
   <div class="news-text">
     <strong><span style="color: #E84A27;">Weekly Report Updated</span></strong><br>

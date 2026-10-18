@@ -13,6 +13,14 @@ official leaderboard record**; the most recent weekly report posted here takes p
 
 <div class="weekly-report-list">
   <div class="weekly-report-item">
+    <div class="weekly-report-date">2026-10-18</div>
+    <div class="weekly-report-text">
+      <a href="{{ site.baseurl }}/assets/reports/weekly_report_2026-10-18.pdf" target="_blank" rel="noopener noreferrer">
+        Weekly Report — 2026-10-18 (PDF)
+      </a>
+    </div>
+  </div>
+  <div class="weekly-report-item">
     <div class="weekly-report-date">2026-10-10</div>
     <div class="weekly-report-text">
       <a href="{{ site.baseurl }}/assets/reports/weekly_report_2026-10-10.pdf" target="_blank" rel="noopener noreferrer">

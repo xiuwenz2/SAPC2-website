@@ -16,7 +16,8 @@ used, and the method of their use.
 
 **Q: Why are there two test sets (test1 and test2), and which one determines the final ranking?**  
 A: All completed submissions are evaluated on both test1 and test2 in parallel. Test1 results
-are published within three days of submission and are mainly for benchmarking during the
+are normally published within three days of submission (longer while the evaluation queue is
+backlogged) and are mainly for benchmarking during the
 competition; test2 results are withheld until the competition closes and are used for the
 final official ranking.
 
@@ -35,10 +36,16 @@ A: Submit your system using the provided <a href="https://github.com/xiuwenz2/SA
 (<a href="https://www.codabench.org/competitions/14176">Track 1</a>; <a href="https://www.codabench.org/competitions/14177">Track 2</a>) to receive official evaluation and appear on the leaderboard.
 
 **Q: My submission has been stuck in "Submitted" or "Preparing" for a long time. What should I do?**  
-A: If any of your older submissions has been stuck in the "Submitted" or "Preparing" stage for an
-extended period, please cancel it manually and resubmit. We may also cancel clearly stuck
-submissions when we identify them. This issue is most likely caused by instability in the
-Codabench backend.
+A: Please **do not delete it**. Because of intermittent errors in the Codabench backend, a submission
+is occasionally lost from the evaluation queue and never progresses. We check for these regularly
+and resubmit them for you in the background; the resubmission appears in your account as a new
+submission with the same file, and the original is cancelled. If you delete a stuck submission
+yourself, we can no longer see it and cannot resubmit it.
+
+**Q: Evaluation is taking much longer than usual. Will my submission still count?**  
+A: Yes. **Final results will be determined and announced only after every submission made before the
+deadline (October 24, 2026, AoE) has been evaluated**, so a submission still in the queue at the
+deadline will be counted once its evaluation finishes.
 
 **Q: Do I need to open-source my code?**  
 A: No. Code submitted to the challenge remains the intellectual property of the submitting
