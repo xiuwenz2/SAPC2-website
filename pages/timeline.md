@@ -34,7 +34,8 @@ permalink: /timeline/
   <div class="news-item">
     <div class="news-date">2026-10-24</div>
     <div class="news-text">
-      <strong><span style="color: #E84A27;">Leaderboard closes</span></strong> for system submission and benchmarking.
+      <strong><span style="color: #E84A27;">Leaderboard closes</span></strong> for system submission and benchmarking.<br>
+      Extended by one day per day of Codabench outage, up to October 31, 2026 AoE (currently October 26); see <a href="{{ site.baseurl }}/news/">News</a>.
     </div>
   </div>
 

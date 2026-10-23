@@ -10,6 +10,18 @@ permalink: /news/
 <div class="news-list">
 
 <div class="news-item">
+  <div class="news-date">2026-10-22</div>
+  <div class="news-text">
+    <strong><span style="color: #E84A27;">Notice: Codabench Outage and Deadline Extension</span></strong><br>
+    Codabench has been unreachable since October 21 because its university network is blocking HTTP/HTTPS traffic
+    (<a href="https://github.com/codalab/codabench/issues/2679">details</a>).
+    The deadline is <strong>extended by one day per day of outage</strong>, currently to
+    <strong>October 26, 2026 (AoE)</strong>, and no later than <strong>October 31, 2026 (AoE)</strong>
+    due to the workshop timeline. We apologize for the inconvenience.
+  </div>
+</div>
+
+<div class="news-item">
   <div class="news-date">2026-10-18</div>
   <div class="news-text">
     <strong><span style="color: #E84A27;">Update: Final-Week Submission Limit</span></strong><br>

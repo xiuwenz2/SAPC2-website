@@ -21,7 +21,7 @@ is_home: true
 </p>
 
 <p>
-  <strong>Competition Deadline:</strong> October 24, 2026 (AoE) | 
+  <strong>Competition Deadline:</strong> extended due to the Codabench outage, currently October 26, 2026 (AoE); see <a href="{{ site.baseurl }}/news/">News</a> | 
   <strong>Paper Deadline:</strong> October 31, 2026 (AoE) | 
   <strong>Workshop:</strong> NeurIPS 2026, Sydney, Australia | 
   <strong>Contact:</strong>
@@ -83,7 +83,7 @@ Teams submitting to the competition are invited to present their work at the **S
     Competitors will submit trained systems through Codabench:
     <a href="https://www.codabench.org/competitions/14176">Track 1 (Unconstrained ASR)</a>,
     <a href="https://www.codabench.org/competitions/14177">Track 2 (Streaming ASR)</a>.<br>
-    <strong>Deadline for submissions: October 24, 2026 AoE</strong>
+    <strong>Deadline for submissions: extended due to the Codabench outage, currently October 26, 2026 AoE (see <a href="{{ site.baseurl }}/news/">News</a>)</strong>
   </div>
 </div>
 
